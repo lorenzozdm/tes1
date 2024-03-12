@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Player = game.Players.LocalPlayer
-local Window = OrionLib:MakeWindow({Name = "LOL Hub", HidePremium = false, SaveConfig = true, IntroEnebled = false})
+local Window = OrionLib:MakeWindow({Name = "LOL Hub Key", HidePremium = false, SaveConfig = true, IntroEnebled = false})
 
 OrionLib:MakeNotification({
 	Name = "LOL Hub",
