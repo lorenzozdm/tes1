@@ -1,1 +1,3 @@
-
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Player = game.Players.LocalPlayer
+local Window = OrionLib:MakeWindow({Name = "LOL Hub Main", HidePremium = false, SaveConfig = true, IntroEnebled = false})
