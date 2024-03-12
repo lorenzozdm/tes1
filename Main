@@ -2,139 +2,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "LOL Hub Main", HidePremium = false, SaveConfig = true, IntroEnebled = false})
 
-if not game:IsLoaded() then 
-    repeat game.Loaded:Wait()
-    until game:IsLoaded() 
-end
-repeat wait(1)
-    pcall(function()
-        if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
-            if game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Visible == true then
-                if _G.Team == "Marines" then
-                    for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container.Marines.Frame.ViewportFrame.TextButton.MouseButton1Click)) do
-                        v.Function()
-                    end
-                else
-                    for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.PlayerGui.Main.ChooseTeam.Container.Pirates.Frame.ViewportFrame.TextButton.MouseButton1Click)) do
-                        v.Function()
-                    end
-                end
-            end
-        end
-    end)
-until game.Players.localPlayer.Neutral == false
-if _G.Fast_Delay == nil then
-	_G.Fast_Delay = 0.3
-end
-spawn(function()
-    while true do wait()
-        getgenv().rejoin = game:GetService("CoreGui").RobloxPromptGui.promptOverlay.ChildAdded:Connect(function(Kick)
-            if not _G.TP_Ser and _G.Rejoin then
-                if Kick.Name == 'ErrorPrompt' and Kick:FindFirstChild('MessageArea') and Kick.MessageArea:FindFirstChild("ErrorFrame") then
-                    game:GetService("TeleportService"):Teleport(game.PlaceId)
-                    wait(50)
-                end
-            end
-        end)
-    end
-end)
-
-local VirtualUser=game:service'VirtualUser'
-game:service'Players'.LocalPlayer.Idled:connect(function()
-	VirtualUser:CaptureController()
-	VirtualUser:ClickButton2(Vector2.new())
-end)
-
-spawn(function()
-	while wait(3) do
-		game:GetService'VirtualUser':CaptureController()
-	end
-end)
-
-function StarterOn()
-    OrionLib:MakeNotification({
-        Name = "Loader",
-        Content = "User: " .. Player.Name,
-        Image = "rbxassetid://4483345998",
-        Time = 5
-    })
-end
-
-
-Old_World = false
-New_World = false
-Three_World = false
-local placeId = game.PlaceId
-if placeId == 2753915549 then
-    Old_World = true
-elseif placeId == 4442272183 then
-    New_World = true
-elseif placeId == 7449423635 then
-    Three_World = true
-end
-_G.Color = Color3.fromRGB(68, 202, 186)
-
-
-
-
-_G.Setting_table = {
-    Auto_Farm = false,
-    FastAttack = true,
-	Auto_Buso = true,
-	Auto_Ken = true,
-	Show_Damage = true,
-	NoClip = true,
-	Save_Member = true,
-	Melee_A = true,
-	Defense_A = true,
-	SkillZ = true,
-	Rejoin = true,
-	Anti_AFK = true,
-	K_MAX = 50,
-	Chest_Lock = 50,
-	Delay_C = 15,
-    NameQuest = "?"
-}
-
-
-
---Tbs
-local Tab = Window:MakeTab({
-	Name = "Auto Farm",
-	Icon = "rbxassetid://6523858422",
-	PremiumOnly = false
-})
-
-
-
-local Tab2 = Window:MakeTab({
-	Name = "Race V4",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-
-local Tab3 = Window:MakeTab({
-	Name = "Visual",
-	Icon = "rbxassetid://6523858422",
-	PremiumOnly = false
-})
-
-
---Bts
-Tab:AddLabel("Auto Farm / Tps")
-
-Tab:AddButton({
-	Name = "Auto Farm",
-	Callback = function()
-        CheckQuest()
-  	end    
-})
-
-
-
-
-
 
 
 
@@ -142,6 +9,62 @@ Tab:AddButton({
 
 
 --------------------------------------------------------------------
+
+
+function UpdateChestEsp()
+    for i,v in pairs(game:GetService("Workspace"):GetChildren()) do
+    pcall(function()
+    if string.find(v.Name,"Chest") then
+    if ChestESP then
+    if string.find(v.Name,"Chest") then
+    if not v:FindFirstChild('NameEsp'..Number) then
+    local bill = Instance.new('BillboardGui',v)
+    bill.Name = 'NameEsp'..Number
+    bill.ExtentsOffset = Vector3.new(0, 1, 0)
+    bill.Size = UDim2.new(1,200,1,30)
+    bill.Adornee = v
+    bill.AlwaysOnTop = true
+    local name = Instance.new('TextLabel',bill)
+    name.Font = "GothamBold"
+    name.FontSize = "Size14"
+    name.TextWrapped = true
+    name.Size = UDim2.new(1,0,1,0)
+    name.TextYAlignment = 'Top'
+    name.BackgroundTransparency = 1
+    name.TextStrokeTransparency = 0.5
+    name.TextColor3 = Color3.fromRGB(0, 255, 250)
+    if v.Name == "Chest1" then
+    name.Text = ("Chest 1" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+    end
+    if v.Name == "Chest2" then
+    name.Text = ("Chest 2" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+    end
+    if v.Name == "Chest3" then
+    name.Text = ("Chest 3" ..' \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+    end
+    else
+    v['NameEsp'..Number].TextLabel.Text = (v.Name ..'   \n'.. round((game:GetService('Players').LocalPlayer.Character.Head.Position - v.Position).Magnitude/3) ..' M')
+    end
+    end
+    else
+    if v:FindFirstChild('NameEsp'..Number) then
+    v:FindFirstChild('NameEsp'..Number):Destroy()
+    end
+    end
+    end
+    end)
+    end
+    end
+    
+
+
+
+
+
+
+
+
+
 if game.PlaceId == 2753915549 then
     World1 = true
 elseif game.PlaceId == 4442272183 then
@@ -667,3 +590,95 @@ function CheckQuest()
         end
     end
 end
+--------------------------------------------
+
+
+function StarterOn()
+    OrionLib:MakeNotification({
+        Name = "Loader",
+        Content = "User: " .. Player.Name,
+        Image = "rbxassetid://4483345998",
+        Time = 5
+    })
+end
+StarterOn()
+Old_World = false
+New_World = false
+Three_World = false
+local placeId = game.PlaceId
+if placeId == 2753915549 then
+    Old_World = true
+elseif placeId == 4442272183 then
+    New_World = true
+elseif placeId == 7449423635 then
+    Three_World = true
+end
+_G.Color = Color3.fromRGB(68, 202, 186)
+
+
+
+
+_G.Setting_table = {
+    Auto_Farm = false,
+    FastAttack = true,
+	Auto_Buso = true,
+	Auto_Ken = true,
+	Show_Damage = true,
+	NoClip = true,
+	Save_Member = true,
+	Melee_A = true,
+	Defense_A = true,
+	SkillZ = true,
+	Rejoin = true,
+	Anti_AFK = true,
+	K_MAX = 50,
+	Chest_Lock = 50,
+	Delay_C = 15,
+    NameQuest = "?"
+}
+
+
+
+--Tbs
+
+local Tab = Window:MakeTab({
+	Name = "Auto Farm",
+	Icon = "rbxassetid://6523858422",
+	PremiumOnly = false
+})
+
+
+
+local Tab2 = Window:MakeTab({
+	Name = "Race V4",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Tab3 = Window:MakeTab({
+	Name = "Visual",
+	Icon = "rbxassetid://6523858422",
+	PremiumOnly = false
+})
+
+
+--Bts
+Tab:AddLabel("Auto Farm / Tps")
+
+Tab:AddButton({
+	Name = "Auto Farm Chest",
+	Callback = function()
+        UpdateChestEsp()
+  	end    
+})
+
+
+
+
+
+
+
+
+
+
