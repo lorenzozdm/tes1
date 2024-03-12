@@ -3,8 +3,8 @@ local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "LOL Hub", HidePremium = false, SaveConfig = true, IntroEnebled = false})
 
 OrionLib:MakeNotification({
-	Name = "LOL Hub Loaded!",
-	Content = "Hi! " .. Player.Name,
+	Name = "LOL Hub",
+	Content = "Welcome " .. Player.Name,
 	Image = "rbxassetid://4483345998",
 	Time = 3
 })
@@ -12,7 +12,8 @@ OrionLib:MakeNotification({
 
 
 function MakeScriptHub()
-    
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/lorenzozdm/tes1/main/Main')))()
+    Checkermensage()
 end
 
 
@@ -24,6 +25,16 @@ function Correctmensage()
 	 Time = 3
  })
 end
+
+
+function Checkermensage()
+    OrionLib:MakeNotification({
+        Name = "PLS CLOSE THE KEY GUI or its lags!",
+        Content = "PLS CLOSE THE KEY GUI! or its lags!",
+        Image = "rbxassetid://4483345998",
+        Time = 3
+    })
+   end
 
 
 function Incorrectmensage()
@@ -79,3 +90,4 @@ Tab:AddButton({
 })
 
 Tab:AddLabel("Close the Window After Correct Key or it Lags!")
+
