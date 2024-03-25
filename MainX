@@ -1,0 +1,444 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local SSMax = Instance.new("ScreenGui")
+local UI = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local Bar1 = Instance.new("Frame")
+local Bar2 = Instance.new("Frame")
+local Bar3 = Instance.new("Frame")
+local Bar4 = Instance.new("Frame")
+local Scripts = Instance.new("TextBox")
+local Close = Instance.new("TextButton")
+local Minimize = Instance.new("TextButton")
+local Logo = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local Bar5 = Instance.new("Frame")
+local Bar6 = Instance.new("Frame")
+local Clear = Instance.new("TextButton")
+local OpenFile = Instance.new("TextButton")
+local ExecuteFile = Instance.new("TextButton")
+local SaveFile = Instance.new("TextButton")
+local Options = Instance.new("TextButton")
+local Execute = Instance.new("TextButton")
+local Attach = Instance.new("TextButton")
+local ScriptHub = Instance.new("TextButton")
+local _1 = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local _3 = Instance.new("TextLabel")
+local _4 = Instance.new("TextLabel")
+local _1_2 = Instance.new("TextLabel")
+local _6 = Instance.new("TextLabel")
+local _7 = Instance.new("TextLabel")
+local TextInput1 = Instance.new("Frame")
+local TextBar = Instance.new("Frame")
+local Remotes = Instance.new("Folder")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local BoolValue = Instance.new("BoolValue")
+
+--Properties:
+
+SSMax.Name = "SSMax"
+SSMax.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SSMax.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+UI.Name = "UI"
+UI.Parent = SSMax
+UI.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+UI.Position = UDim2.new(0.227283075, 0, 0.313816726, 0)
+UI.Size = UDim2.new(0, 758, 0, 299)
+
+TextBox.Parent = UI
+TextBox.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0790915787, 0, 0.163631782, 0)
+TextBox.Size = UDim2.new(0, 597, 0, 236)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.Text = "--Code Here"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+Bar1.Name = "Bar1"
+Bar1.Parent = UI
+Bar1.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar1.BorderSizePixel = 0
+Bar1.Position = UDim2.new(0.0499342978, 0, 0.0940170959, 0)
+Bar1.Size = UDim2.new(0, 623, 0, 8)
+
+BoolValue.Name = "Value"
+BoolValue.Parent = Remotes
+
+Bar2.Name = "Bar2"
+Bar2.Parent = UI
+Bar2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar2.BorderSizePixel = 0
+Bar2.Position = UDim2.new(0.0341655724, 0, 0.0940170959, 0)
+Bar2.Size = UDim2.new(0, 12, 0, 263)
+
+Bar3.Name = "Bar3"
+Bar3.Parent = UI
+Bar3.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar3.BorderSizePixel = 0
+Bar3.Position = UDim2.new(0, 0, 0.840455949, 0)
+Bar3.Size = UDim2.new(0, 757, 0, 55)
+
+Bar4.Name = "Bar4"
+Bar4.Parent = UI
+Bar4.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar4.BorderSizePixel = 0
+Bar4.Position = UDim2.new(0.868593931, 0, 0.0940170959, 0)
+Bar4.Size = UDim2.new(0, 7, 0, 270)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = UI
+Scripts.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0.877792358, 0, 0.113960117, 0)
+Scripts.Size = UDim2.new(0, 82, 0, 256)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = ""
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = UI
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.96977663, 0, 0, 0)
+Close.Size = UDim2.new(0, 23, 0, 23)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Minimize.Name = "Minimize"
+Minimize.Parent = UI
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BackgroundTransparency = 1.000
+Minimize.Position = UDim2.new(0.939553261, 0, 0, 0)
+Minimize.Size = UDim2.new(0, 23, 0, 23)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "_"
+Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextScaled = true
+Minimize.TextSize = 14.000
+Minimize.TextWrapped = true
+
+Logo.Name = "Logo"
+Logo.Parent = UI
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.Position = UDim2.new(0, 0, 0.00668896316, 0)
+Logo.Size = UDim2.new(0, 33, 0, 34)
+Logo.Image = "http://www.roblox.com/asset/?id=9524079125"
+
+Title.Name = "Title"
+Title.Parent = UI
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.349540085, 0, 0, 0)
+Title.Size = UDim2.new(0, 200, 0, 33)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Synapse X  - V1.2"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 16.000
+Title.TextWrapped = true
+
+Bar5.Name = "Bar5"
+Bar5.Parent = UI
+Bar5.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar5.BorderSizePixel = 0
+Bar5.Position = UDim2.new(0.877792358, 0, 0.0940170959, 0)
+Bar5.Size = UDim2.new(0, 82, 0, 8)
+
+Bar6.Name = "Bar6"
+Bar6.Parent = UI
+Bar6.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar6.BorderSizePixel = 0
+Bar6.Position = UDim2.new(0.985971928, 0, 0.0940170959, 0)
+Bar6.Size = UDim2.new(0, 11, 0, 263)
+
+Clear.Name = "Clear"
+Clear.Parent = UI
+Clear.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.160949871, 0, 0.874643981, 0)
+Clear.Size = UDim2.new(0, 84, 0, 32)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextSize = 17.000
+
+OpenFile.Name = "OpenFile"
+OpenFile.Parent = UI
+OpenFile.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+OpenFile.BorderSizePixel = 0
+OpenFile.Position = UDim2.new(0.281002641, 0, 0.874643981, 0)
+OpenFile.Size = UDim2.new(0, 79, 0, 32)
+OpenFile.Font = Enum.Font.SourceSans
+OpenFile.Text = "Open File"
+OpenFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenFile.TextSize = 17.000
+
+ExecuteFile.Name = "ExecuteFile"
+ExecuteFile.Parent = UI
+ExecuteFile.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ExecuteFile.BorderSizePixel = 0
+ExecuteFile.Position = UDim2.new(0.397097617, 0, 0.874643981, 0)
+ExecuteFile.Size = UDim2.new(0, 76, 0, 32)
+ExecuteFile.Font = Enum.Font.SourceSans
+ExecuteFile.Text = "Execute File"
+ExecuteFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteFile.TextSize = 17.000
+
+SaveFile.Name = "SaveFile"
+SaveFile.Parent = UI
+SaveFile.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SaveFile.BorderSizePixel = 0
+SaveFile.Position = UDim2.new(0.510554075, 0, 0.874643981, 0)
+SaveFile.Size = UDim2.new(0, 78, 0, 32)
+SaveFile.Font = Enum.Font.SourceSans
+SaveFile.Text = "Save File"
+SaveFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaveFile.TextSize = 17.000
+
+Options.Name = "Options"
+Options.Parent = UI
+Options.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Options.BorderSizePixel = 0
+Options.Position = UDim2.new(0.625329852, 0, 0.874643981, 0)
+Options.Size = UDim2.new(0, 77, 0, 32)
+Options.Font = Enum.Font.SourceSans
+Options.Text = "Options"
+Options.TextColor3 = Color3.fromRGB(255, 255, 255)
+Options.TextSize = 17.000
+
+Execute.Name = "Execute"
+Execute.Parent = UI
+Execute.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.0501319245, 0, 0.874643981, 0)
+Execute.Size = UDim2.new(0, 74, 0, 32)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 17.000
+
+Attach.Name = "Attach"
+Attach.Parent = UI
+Attach.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Attach.BorderColor3 = Color3.fromRGB(53, 53, 53)
+Attach.BorderSizePixel = 0
+Attach.Position = UDim2.new(0.745382726, 0, 0.874644041, 0)
+Attach.Size = UDim2.new(0, 77, 0, 25)
+Attach.Font = Enum.Font.SourceSans
+Attach.Text = "Attach"
+Attach.TextColor3 = Color3.fromRGB(255, 255, 255)
+Attach.TextSize = 17.000
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = UI
+ScriptHub.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.87183404, 0, 0.874643981, 0)
+ScriptHub.Size = UDim2.new(0, 86, 0, 32)
+ScriptHub.Font = Enum.Font.SourceSans
+ScriptHub.Text = "Script Hub"
+ScriptHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHub.TextSize = 17.000
+
+_1.Name = "1"
+_1.Parent = UI
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1.BackgroundTransparency = 1.000
+_1.Position = UDim2.new(0.0487485714, 0, 0.116809115, 0)
+_1.Size = UDim2.new(0, 23, 0, 33)
+_1.Font = Enum.Font.SourceSans
+_1.Text = "1"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextSize = 16.000
+_1.TextWrapped = true
+
+_2.Name = "2"
+_2.Parent = UI
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.Position = UDim2.new(0.0487485752, 0, 0.210826218, 0)
+_2.Size = UDim2.new(0, 23, 0, 33)
+_2.Font = Enum.Font.SourceSans
+_2.Text = "2"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextSize = 16.000
+_2.TextWrapped = true
+
+_3.Name = "3"
+_3.Parent = UI
+_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3.BackgroundTransparency = 1.000
+_3.Position = UDim2.new(0.0500678346, 0, 0.304843307, 0)
+_3.Size = UDim2.new(0, 23, 0, 33)
+_3.Font = Enum.Font.SourceSans
+_3.Text = "3"
+_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3.TextSize = 16.000
+_3.TextWrapped = true
+
+_4.Name = "4"
+_4.Parent = UI
+_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4.BackgroundTransparency = 1.000
+_4.Position = UDim2.new(0.0500678346, 0, 0.398860395, 0)
+_4.Size = UDim2.new(0, 23, 0, 33)
+_4.Font = Enum.Font.SourceSans
+_4.Text = "4"
+_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+_4.TextSize = 16.000
+_4.TextWrapped = true
+
+_1_2.Name = "1"
+_1_2.Parent = UI
+_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_2.BackgroundTransparency = 1.000
+_1_2.Position = UDim2.new(0.0500678346, 0, 0.492877483, 0)
+_1_2.Size = UDim2.new(0, 23, 0, 33)
+_1_2.Font = Enum.Font.SourceSans
+_1_2.Text = "5"
+_1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1_2.TextSize = 16.000
+_1_2.TextWrapped = true
+
+_6.Name = "6"
+_6.Parent = UI
+_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_6.BackgroundTransparency = 1.000
+_6.Position = UDim2.new(0.0500678346, 0, 0.586894572, 0)
+_6.Size = UDim2.new(0, 23, 0, 33)
+_6.Font = Enum.Font.SourceSans
+_6.Text = "6"
+_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+_6.TextSize = 16.000
+_6.TextWrapped = true
+
+_7.Name = "7"
+_7.Parent = UI
+_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_7.BackgroundTransparency = 1.000
+_7.Position = UDim2.new(0.0487485752, 0, 0.68091166, 0)
+_7.Size = UDim2.new(0, 23, 0, 33)
+_7.Font = Enum.Font.SourceSans
+_7.Text = "7"
+_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+_7.TextSize = 16.000
+_7.TextWrapped = true
+
+TextInput1.Name = "TextInput1"
+TextInput1.Parent = UI
+TextInput1.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextInput1.BorderColor3 = Color3.fromRGB(135, 135, 135)
+TextInput1.Position = UDim2.new(0.0804108381, 0, 0.116809145, 0)
+TextInput1.Size = UDim2.new(0, 582, 0, 14)
+
+TextBar.Name = "TextBar"
+TextBar.Parent = UI
+TextBar.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextBar.BorderColor3 = Color3.fromRGB(135, 135, 135)
+TextBar.Position = UDim2.new(0.84828496, 0, 0.116809145, 0)
+TextBar.Size = UDim2.new(0, 15, 0, 216)
+
+Remotes.Name = "Remotes"
+Remotes.Parent = UI
+
+UIAspectRatioConstraint.Parent = UI
+UIAspectRatioConstraint.AspectRatio = 2.535
+
+-- Scripts:
+
+Execute.MouseButton1Up:Connect(function()
+	if BoolValue.Value == true then
+		loadstring(TextBox.Text)()
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification",{
+			Title = "Executed",
+			Text = "Synapse X V1.2",
+			Duration = 5
+		})
+	else
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification",{
+			Title = "Attach To Execute",
+			Text = "Synapse X V1.2",
+			Duration = 5
+		})
+	end
+end)
+
+
+local function DGMZOC_fake_script() -- UI.DragScript 
+	local script = Instance.new('LocalScript', UI)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(DGMZOC_fake_script)()
+
+Attach.MouseButton1Up:Connect(function()
+	if BoolValue.Value == true then
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification",{
+			Title = "Is Alr Injected",
+			Text = "Synapse X V1.2",
+			Duration = 5
+		})
+	else
+		BoolValue.Value = true
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification",{
+			Title = "Injected",
+			Text = "Synapse X V1.2",
+			Duration = 5
+		})
+	end
+end)
