@@ -191,6 +191,7 @@ if game.Players.LocalPlayer and game.Players.LocalPlayer.Character then
 	Loader:TweenPosition(UDim2.new(0.5,0,0.5,0),"Out","Linear",1)
 	wait(1)
 	Loader:Destroy()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/lorenzozdm/tes1/main/SToggler)))()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/lorenzozdm/tes1/main/MainX')))()
 	script:Destroy()
 end
