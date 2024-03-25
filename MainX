@@ -442,3 +442,15 @@ Attach.MouseButton1Up:Connect(function()
 		})
 	end
 end)
+
+
+Close.MouseButton1Up:Connect(function()
+	local StarterGui = game:GetService("StarterGui")
+	StarterGui:SetCore("SendNotification",{
+		Title = "Synapse Closed",
+		Text = "Synapse X V1.2",
+		Duration = 5
+	})
+	UI.Visible = false
+	script.Parent:WaitForChild("SSXCloser").ImageButton.Visible = true
+end)
