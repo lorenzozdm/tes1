@@ -1,1 +1,87 @@
 
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local SSXCloser = Instance.new("ScreenGui")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+
+--Properties:
+
+SSXCloser.Name = "SSXCloser"
+SSXCloser.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SSXCloser.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ImageButton.Parent = SSXCloser
+ImageButton.BackgroundColor3 = Color3.fromRGB(90, 90, 90)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.0520958081, 0, 0.188585609, 0)
+ImageButton.Size = UDim2.new(0, 48, 0, 44)
+ImageButton.Image = "http://www.roblox.com/asset/?id=9524079125"
+
+UICorner.Parent = ImageButton
+
+ImageButton.Visible = false
+
+-- Scripts:
+
+local function VARKK_fake_script() -- ImageButton.DragScript 
+	local script = Instance.new('LocalScript', ImageButton)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(VARKK_fake_script)()
+
+
+ImageButton.MouseButton1Up:Connect(function()
+	local StarterGui = game:GetService("StarterGui")
+	StarterGui:SetCore("SendNotification",{
+		Title = "Synapse X Open",
+		Text = "Synapse X V1.2",
+		Duration = 5
+	})
+	
+	ImageButton.Visible = false
+	script.Parent:WaitForChild("SSMax").UI.Visible = true
+end)
