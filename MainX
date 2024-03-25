@@ -1,1 +1,444 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _DwFeFXracJxE = a; end)); return(function(f,...)local t;local s;local d;local l;local o;local z;local e=24915;local n=0;local a={};while n<237 do n=n+1;while n<0x209 and e%0x191e<0xc8f do n=n+1 e=(e*833)%7751 local h=n+e if(e%0x1f72)<0xfb9 then e=(e*0x1a4)%0x189 while n<0x19d and e%0x3b7e<0x1dbf do n=n+1 e=(e+623)%47016 local t=n+e if(e%0x1aaa)<=0xd55 then e=(e-0xee)%0x5282 local e=1098 if not a[e]then a[e]=0x1 s={};end elseif e%2~=0 then e=(e+0x1bd)%0x86f8 local e=93046 if not a[e]then a[e]=0x1 d=getfenv and getfenv();end else e=(e*0x312)%0x6a40 n=n+1 local e=52218 if not a[e]then a[e]=0x1 l=string;end end end elseif e%2~=0 then e=(e-0x1eb)%0xb77a while n<0x10d and e%0x229c<0x114e do n=n+1 e=(e+362)%23690 local z=n+e if(e%0xf76)<0x7bb then e=(e-0x12)%0x15e6 local e=94534 if not a[e]then a[e]=0x1 end elseif e%2~=0 then e=(e-0x19)%0xa6b8 local e=14544 if not a[e]then a[e]=0x1 end else e=(e+0x2bf)%0x9f42 n=n+1 local e=47484 if not a[e]then a[e]=0x1 t=function(a)local e=0x01 local function n(n)e=e+n return a:sub(e-n,e-0x01)end while true do local a=n(0x01)if(a=="\5")then break end local e=l.byte(n(0x01))local e=n(e)if a=="\2"then e=s.RwuYznny(e)elseif a=="\3"then e=e~="\0"elseif a=="\6"then d[e]=function(n,e)return f(8,nil,f,e,n)end elseif a=="\4"then e=d[e]elseif a=="\0"then e=d[e][n(l.byte(n(0x01)))];end local n=n(0x08)s[n]=e end end end end end else e=(e+0x29d)%0xc175 n=n+1 while n<0x2af and e%0x3b30<0x1d98 do n=n+1 e=(e*120)%1631 local t=n+e if(e%0xb18)<=0x58c then e=(e*0x298)%0x95c0 local e=61455 if not a[e]then a[e]=0x1 o=tonumber;end elseif e%2~=0 then e=(e*0x11a)%0x134a local e=23665 if not a[e]then a[e]=0x1 d=(not d)and _ENV or d;end else e=(e*0xe)%0x4ed n=n+1 local e=90776 if not a[e]then a[e]=0x1 z="\4\8\116\111\110\117\109\98\101\114\82\119\117\89\122\110\110\121\0\6\115\116\114\105\110\103\4\99\104\97\114\80\86\75\83\102\119\86\116\0\6\115\116\114\105\110\103\3\115\117\98\87\73\87\71\108\66\111\101\0\6\115\116\114\105\110\103\4\98\121\116\101\105\103\112\70\82\112\100\103\0\5\116\97\98\108\101\6\99\111\110\99\97\116\120\95\89\98\75\84\102\119\0\5\116\97\98\108\101\6\105\110\115\101\114\116\87\106\99\110\72\77\104\69\5";end end end end end e=(e*565)%37338 end t(z);local e={};for n=0x0,0xff do local a=s.PVKSfwVt(n);e[n]=a;e[a]=n;end local function h(n)return e[n];end local l=(function(f,t)local z,a=0x01,0x10 local n={{},{},{}}local d=-0x01 local e=0x01 local l=f while true do n[0x03][s.WIWGlBoe(t,e,(function()e=z+e return e-0x01 end)())]=(function()d=d+0x01 return d end)()if d==(0x0f)then d=""a=0x000 break end end local d=#t while e<d+0x01 do n[0x02][a]=s.WIWGlBoe(t,e,(function()e=z+e return e-0x01 end)())a=a+0x01 if a%0x02==0x00 then a=0x00 s.WjcnHMhE(n[0x01],(h((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+l)%0x100)));l=f+l;end end return s.x_YbKTfw(n[0x01])end);t(l(181,",l!Z-Re9Uf^bC)GSRH"));t(l(221,"9)q kL<R*F_Cix%wq kixiW1q) C< Rw wiqw<)) R wLw_RCxCwhx q %H<q_C*i%%w)xk2<xLC*w_LwFu*:xkC)4 RiL%_ykqiLLRDR%F_CLQ*)*q)kF)ikLxLwF)_ kLiR* FikxC))q kCk__)FkC .<)_qFLk)%kLx)%*)% LwLRwF_C%wkXw)Fk%RLRqiRxw%<wCx%1FF _*x_w<))k L *FFFCx%_p<qL x*u*3Ci%q%) )%zf<R*__iCww)xk qR<C_kC wR%k xq_<q  L<%iwFqkLqk**<C*x)xiqkkkkw)C xF*i_wL _LF<<_L_%ixF%iLLkRqFFCxx%w*qN ikkF)Rw_Cwi0xJCkR)N *i_x_w%qCkRPCFxCFx%wq)Rkq<L*q_*xTwC)% q q)< Cix%FK%qqkRRqF*Cq%R%*)*kR<k* k<<_w*)x RLw**RCC)iL7i CqFRR* L R*U*)xkR< *kC*x_%iq))xkLLFRii=Rw_< qkFRwF<L<x_O qFkiRqR__%CCxqqLq<<FLxkV"));local e=(-721+(function()local a,n=0,1;(function(e)e(e(e and e))end)(function(e)if a>383 then return e end a=a+1 n=(n-221)%20337 if(n%534)<=267 then n=(n-909)%14640 return e else return e(e(e))end return e(e(e))end)return n;end)())local te=(getfenv)or(function()return _ENV end);local r=s.newUbnhd or s.kehmuufC;local t=3;local z=4;local p=1;local d=2;local function de(b,...)local k=l(e,"_A6Pa3K#S<;D-Vz2;Pz6VP-aD3;2<#SS#<D;-#;VDK<P<A3##K3DzaAP#P;#KKaDSD3z;;3-azPz626baSg6AVzaV3-KA2A-+V2;D3<DS--3DK;#a2Sa#63K3Aa3P2zKj-9<2S;D-zVA-6;3;33A36KV3<6PAm2VzDVz-D-PDK<2<AS3aAP<6PAay3aSa-a3PS6zA5.2SVSPK2KO3AS3<2S<#K#S2S2D2e2DDD-A6;#VDz#5K-36aPPa36aPa;K#aVP2zDoaA6Av2aS+S#K63Paa##S##;#PK)3-a;aA6DA62Pg6z6z5VK-a;K;SS-SKK-#Pz-V--VDz;2;*AAz2DPK3K-36D3;S;KS--z6DVVV3D2Do;AzA2PzS-z-3D3;D6;A;ND2-zVVz-2D%2E;6<#Sa#3KK;;DADPS2ADA-2VzzV2A666A3uz2D2#z3V--K;V#V<;SS#-#Q66zdVS-6DP;az326VSzADzD-;z6VAA<332Dm3z#aK-2P;3<2S##SK<DVD;;z<-<PSPK<32a#VPVAD3;K<#z#DVzA;ADASPSK<A#AKaP-3DA<-3-a;#<SS<-#V;VA-/;P#A<3S3#KK6369KAD6#;S;;S;#DK-DM-#;V<A<AS3KSAaPV2Kz#z3-<2cD-;;<2326aK<AP6Az/<<;<63V#-SD<;;<DS-SDKz323,<3<#<DSS3VP#3PaAPR6SAS%A2D26#}ADKa;2#P7SD2;2PKzSV;-;DD;-23SzSg#5KA36#KP3K;VDzD##Kz;3DK2D;V<2S2SY#A<a3PaDP36KA#3-3zK6a2,zAz6(;k#-3-#AK63)V3V2KKA<<S-#DPVDP3-K<zV2<6Vx;-63Da3DPaAP3S,;n<z-VV-zAPA3A<&KV-D3VAD2;z;K<K#2#<#.zzVz-2-mDA;6VPV#D3KK3-aSP<6;#^3UKK3DAAV=-3D6;P<a-#V#V<S-a;;D)S2;S-#Pa3-dAH-PDP;a<3SK##KS<;S;P-A3;S2PVzA-DDD<&6D3;3<KS##SK<3;#P#-6zAzJ2/?2Az63P 223;#<#SS#<K;3D2aD2Kz6sA.oA26zPVa-36Az#<S<6#;KD3-;A;P;#<a3VKP33a<aA-#6VSy-2z;;Az;2zSVaAPA6AAShP2az3A-PK6a8V222V#VP;#AKVKMLSz<23aP23z<V#-SD<2z=;2-#V#3323%aAS3SKSKKzKK3DaD-<-a;D<-SVV6VaVS-3SD;A<aS;#;6SzSVV-;DD;-z<2Pz3zaK636aPPa63AK0#a#6<V;V D-;V<zz6VPDz-P-DaaPS6KA#xSK#a236-VDV;z<2<lSA#6;z<aa3a)6#ASY<aVazazPK6z6P-HV<2#V3K333aKP#6SA<P;#V6-Vz#&23aE6{H2;2PA;a3K3APS6<A;3zKDK63=P663Fa,P(A2##K3z-KKaD<3,a92#P-z2V2Vr-AD6;P#a2aDKKS3Sa<P;6DA-uV6a62z9V<-6DP;aza2KV-VK<2DP;#<AAVAa222WzAAPP#6SEK2<z2#S#g3;aDP-#YSV#VKz3Ka3a#-3DSKzDz;S2;#DAPSDPVP6A2AH*A3<aaaA6;DK;z<SS<#;VA-zD-;DSAK#3P5Pa;<V;ASKz;S23K-<#-##6PK-<2PADDVKa623S#K3DzP#Dz<##KDDKV32a2aXPASAAa8a23zKV#-SD<2VVDSV#VKz323*aAP63;3aB32;z#VS-<2-p-8z-6#2K2KF3Aa6PP6aa3aK2#z-V<-;DD2S!-23zz#AKA36aPPa63AK6#PSz;V;-DD-;V<zU#TPDAKPaP6A-263Ka<PVS6<V---DV;z<2<HEA-3;P3a3APK6#ASK83D3a3uAP6V6AzP2<zDV2-S333^P#6SA<3zKdKa3AAA6zA-A/caDK#a#W3Ka#PS#3S<Kz3V3<6zPD6A6;g#l3S3#3KK3#aSP<d;SDa-2V2PV2Vd-A23 2OP2SVDK#Kva<P;6DK-#-#A3S3aP;PA6A;3<3SK##KS3<a;K<K-Az+z222dzAV6aP2az3<#S##SK<3;aDD-S63zY2A#2Az6VPA<2zz#C;2SVz-V-2<z<z;6SS#2aaKA3Aa#P<6S(SGA2#zzKDK;aVPz62#PS,##K3a#P;A<ASAKE---z;VS-AazaPP.6AA6a3333#?#-SDS;<<;SD#-zVDJS2aAPA66APia23KK6AcSD;;;<DS-#VKzP2D%SAP66<Aa032K6;a#P36<AV-2Sz#SK3;6PA6a<S<23au#2#zSV<-;DDA-hV-zSQK3PA<V-P6K6Ez#aK2<z<V;-DD-;V<z;D-X#6wKz;aDVa-66zV3PSzDVD--DV;z<23*VaD6Ka<SSVADKKA2VPV26;VVDD<AA-CeKzzEa<;P33a;P#6SA<3eK;3;3A-2D2Dr;A<6SP#a<A<KaSV-LKaaSD+-VP-<dz-?D<;6<PSa-6-2-3DA;K<P<3#A2V2SV2V}-A2DAw23z-VDDPD<;D<2<#A-AA2zz2z/AKPh6SAA<Kh;aKa2VS;6#;zp3-(zZS2:zAV6AKA3AD2D;#DzV6-KDTPV<K2zzaV22a-#DVLPD3;z<#SS#<Dz-l-aDASASSS;KK26z-Va-3DK2;2D2DV2V4-;<aDP<S6A63zSD<;PK#VDSDz#<<<A#DK-3V;6;a;S<33a#6K-z3VV-#DS;<zV2aVzV<-#DV;#PA6KAP?a236SPSP;z2;D<DS-#VKz323H<K#66PA2032Kz#AVaAA2ZzAAhAzPD3-<DV;#PP62A37K2#P-Pza6624P*2z2z2zR-KDKaPPS63AK}#P;a;a-2VD-D6<zS2Sj-#-PD2D<<;6KA-*S2<z;6APzAzADFa<vS<#6KP3aSz;a<;S-K;KSazaA-Vz3;2;i<AVKVD-V-SKK<V<AS3K2ADKPPzaAV26BAPEA2#V<-S-;;-<-a<<A#a#x332zA-626CAJzKz<VSSK;V#DP;6;AD -2Vzz326aCADPP3zz;S3Ka<a<8V#<6-A-UV2zz2zT#<a<2P;a<VSK##KS;-;DDA<AKP##KD33zAVS-PDa;3zKzSz;-z-SD2PV6VAzB2,m2Az66A+aD3;2<#SS#<DVDzDz;K<z<P3S#K3azPVK-3DK;#zVV6#;K23-aVPz;K<6#6#62PzVV3-KD#2#T<z2z<S-;PD#;D<36A6ArP2az3ASPK6;YV222V-2VKVSDa<G<;<;#S#F232cV#-SD<2z)eRa2ADhVa-aD3;A<AA3M32Kz#VS-<D;V-V-Sz#zK2Kh3Aa6PP3233)#2#zSV<-;DD;-vK-z#2S<KA36aPSA<aS3#3aDazPV6;o26AAI2SzzVSV3<D;V<<S;#-#KP;3za2PzDV;2<2<vSA;KKa;#AS;Az#;;2z;66;V--zDz;2;F-#SP2/K2#FaK,<PSE#a<2DzVVV-zD2zA;A<<SP#aK3<DD2<VS-S2#2KAzzzAaa--#AS2A<3VDaKKKPaSP<6;KeSaK63A3aaa6KV6z<2V2AVDK#Kaa<P;6D3z#-#*3Pa3aPF366A45a2S;;KSKaa;PD6-3zSAK233aaaKA3A3A<222K#<K<3;aDP-6VAz3aaY26z6P-3<VaD6QAKADSKD3Da-PV6zA2Ae#AP6zPV<-3DK;#zA2KVDV6-AazPz626LAA962PzaV3-#D#;S<<S;#DA--2SzaLK;3zVD96VP2D-6 KDS;V<;SD#--A-P-#DaP6;P<--D<a#S--#?2S;;;3S-#VKzDPD3D<;K#K##KKK6a-P--;?6S-AK;A6-DKKa<Aa6aA6aA3kK3APAa#6z606aV22Pz#VAV#DDD6;K6KD;A<<z6;0zD6#<z-<z<aSd#AK6;#;V;<<6#-O<2<z;VD--DV3z6KV:SA#KKP3aa3#SSSS;P-2;z-V--VDzza;8<;S6#PKa<#D3;K<aK2KDK#KAa6-2<#Pa3;AAVV#,62<3a#P-6<A;hDa;azaDPa-ADA;6<PSa#3KK<#SSP;6;ADe-2VzzV2h<)AD3;P<aS3S3K#3Sa<P;PPA- V2zPa3SPK636SAS2;z;#SKS3<a;PD6-AV66P22wzDV6-PDa2S5;zSz;VVD2DVSP;6S#w2%z2Az6VPA#6zAa2S2Sz--2#D;a3VSa3&PzPP26zSVa-3DK2V2<23z2V13-3zPz626136#KK#a3PS6zV#2-GS;;-:za-6DADa;aSKA6JV2az3VKfzAVAVzV2dzzzP-#D6;3PA6-APXa2336aK6<AVAVs22zzKV--K3Ba3P66PAaK-3#3aPV-<D2;D<-SVV6VSVaDV;#PP6-A3GK2#6-azP-A-6N!K2VzV#bKS36aPPa#S#D#DPD3Sa-PEDz;z<z<2S%#AK6;K;<;PS;K3##KV3PaAP36eF2AP2<2/zhKP3Sa3PK6#K-Kz#632V--VDz;2-A<AS6#PKaDDaKP#6SA<v;2Dz-2VP-D2DT;A<6SP#<K3#-#;PS6<A;672-zzVzV-->D3a2<PSa#3#D3#a<P<P-<2d-2Vzzz#V}-AD6;P!SS3##K#3<a<P;6DP-A22z2XzQV6-6-6;a<3S;##KS3<a-PD6zAV1zY22,zAV6-aDa;K<K<<#;K<3;aDa36VAz^26j,Kz6VP-aD3;K<zSSSD#33DazPVPAA2AMwA26P-Va-3DK;<<SSD#;SDKDaVP2626jAAvz2P2Kz6-KD;;S;#S;#DK-3V3DP2Pa6AA6XP2#z30KV-DS;V<;<3#-Kz3z#2aVPA6KAPAP23z;V#2S--;;<2S-SSKzKA3*aAP;6PA3H32;z#V<-<Dz3S<-SV#zS2Kx36a6a3;SA3fK2#2AV<-;DD--a2Sz#2#LKA36a;PaP#S6c#2;z<VV-DD-;V<zzSS*#AK633aaP#6KP#A#2<zDVD--DVD;<2;6<D#6KK3a3PPK6#ASx<A#zDzu-VDz;2;P<AD6#;Ka3<aKaA6SA2 ;6DbaVVV6D2D2;A<KSP;aKS3KaDPSPaA;hV2-zV2P-2-ADA;K<PS3#3KKSPaSP<6;A-T-2VzzV2Vz-AD6;P<a<P#KK#3S<-DP<<#V#V#A3anT6<z6.<V3-PDS###B3<a;PD#G<6SBKOKaa;aAPADa;2<KS##SDZD2D2S2<6<iS3K<3aa#V3-3DK;K<#SS#<K;3DKd#V6z6aAtXA26P<P3PA6D>-<SSV#;KD3-Da<2<-S3AAE<2PzaV3A<A-A-V-2<zVVA3V3SP2Pm6AK3##333#a;6-6;2!X22a#-#A3za2a(S3S#SD#S23zDV#-SD<2zlarjz<VP32KRaAP66PK#K;KaaD6KPS6zAa*62KzAVCVaD;DA;A6a6aHK2#zS66PVVDzV!<Y)<2D<-2D-;S<#<<#DKD2S2AV;-DD-2Kh-2<z3VaVKDS;SP36KA#kSASz;VD--DVAa<2<4SA#6KP3aa33K<3ASw<2;zDV-VPDzV3DA<AS6#PK<33a#P#6-A<Zz;Sz-VV-z-aDk;6<6S#6AK33Ka#a<6<AD(DQz#AVz-2-^DS;6<PSa<3AS3#aSP<6;ADn22VFBaDVq-PD6;-<aS3#KK#DAa<P;6DAzsVXjz2uZzZ-6Da;a<3SK#2KSKD3zPD62AVA;222*zAV6V#Da;<<KS##SK-3;#Da;6V66m2HD2Az2VP2aVA;K<DSSSPK;3-a-KVa;A2AaTA2azPV<-3DKDe<SS;#;K23-azPzPP-VAAr62Pr6V3-#D#;S22S;#DK-3VazP2Pp3A-A{P2az3V--#D-;<;-SV#-KV3z3KaGPA66PPkK23zKV#-SD<;V<D<z<SKzKA38a;P66PAa=32Vz#VS-<D-;D<zSV<z#;Ky36a6PP6aAVBKs<23V<-VDDDS<VSz#2#.-g36a#Pa63AK4;2SA<zA-D-0;V;<S2Sz#A<63SaaP<6K6AZS2;z;GDz3DVD6<2<6SA##KP3a3PPK6SAS V2;z-V--Vz;;2;:<ASP#PKa33aKa66SA<l;2D2aVV-zD22<u2I32#V3VPD<;-PSP5A;>D2-P/aVPV6zAKJ3E#Sa#SKK3#aS;#S2<6.-9<zzV2VGn;6CAP!<2<D<-2D<D#;A<*S:Tz2zz2z4VA-6DP#aVaSK#DKS3<a;;6SVS;#P22>&zAV6-PT<AS2D2<-AV#-;-dD^STSPSA#K3;a3PS-aDD;K<#SS-<-D-VDA;D;6A2A;vA26zPAVPP6KA- --DV2V6DVDDPzP;6MAA:6P23PPS6#6P2D2-2-zaV-VAaza<Pr6AA6a;3<3<6<6-6;A2FPzzzA# 3za2akP366APQa23zDV#-SD<2zG;lAz.VK323VaAP66PKA#aKD3;PVAK6<6AJA2;zPVVVa3Aa2PP6aA33DK;aVaDAP6<A-A6q6VPz<VAD#aPPS63AKg#PV3#a2PSD-;V<zS2<P#AK63PKa366KAS9S2<z;Vz---2DP<2<6SA#KKP3aa33KPzAS1D2;zVV-V^Dz-2;V<ASa#PKK33aSP#6zA-e;2-z-z<-z-+DU;P<6S#6AK33Ka#aa6<ADjDA-3DVzVX-uDA;6<KSaS#z;3#a;P<6zADb-2V7zaVVR-PD6;3<aSS#KS#-Ka<P-6DAzGV22z2zKVa-6Da;a;#SK#SKS3Da;P2V<AVBz22t6zAVP-PDaWD<KSS#SK<3;aDP-PPPz{2nA2A2aVP-3D3;K<#S-6KK;3Da-a26z64AF>A3SzPV3-3D#;#<SS<#;A-3-a2Pz626qAAG62P3<V3-#D#;;<<SD#DK-S<azP2Pd66A6hP2azKVV-#DS;<<;<6#-KV3z<6;S<6<9#;K<3<zKzP-SD<;;zS2D26zA-a<6DK;K<#SP#P6#z#V2-<D;;DV22-z-VV-3DaDKPP6-A3xK2#PSaSPV6a6:5K2VzV#RKK36aPPa#<S3#-3D3AV;-2D-;V<zVazzzK-23P3AP36KA#3VK-a2aVA36DAzAa.aV3zDVPD<aKPK6#ASx-2;zDV--V-6;2;b<A-#zAV<-6aKa36SA<M;3/32a6a%?SAzAAi#2#-#V<D#DD<V6<AV:D2-zV6PPV6aDA;6<PSaS:KK3#aSP<K<ADw-2VzzV2Vg-AV6-Y<aS3#KK#3SaDP;PVP<IV22z2zAVA-6DP-a;DSK#SKS3;a;PV6-PV6A222AzAVP-PD#;3<-<2#SK<3;3PP-6zAzA9rx23S2VP-aD3;z<#S<#<KzISa-PV6z6<Ajt626zPS6-3DK;#<SS<#;KD3-SaPz626dA6T62PzaV326D#;S<<SD#DK-3Vaz3<PO6AA66PAAz3V#-#DS;<;ASDSzS#3z3AaQP#66APxaA323V#-;D<;-<D<P#VSzKA3 aPP663Aav#2KzVV<-<DD;D;SSV#2K2K63AaKzm6aA3/KCPzSV;-;VDA;<VS2#2#yKA3<aPaK;<AKg<2Sz2V;-DD--VH-S2S6#AKa3PaDP3aKS3CS2Dz;VV---6;z;3<PSA#PKPKVa3P#6#A;W<2z<SV--VDz-S;B<6S6#PA633a#P#6<A<8;2Dz-}K-z-)Dx;A<6SP#aS33za#P<6<A;MDNmzVVzV6-5D6;6<aSa#3KK3#aDP<6DADY22VzzV22HV<D6;a<aSK#KKD3Sa<aA6DAVOV7pz2zrVAz6-z;a<KSK##KS3;a;3DVzAVM2222AzAV3-PD;PK<KS;#SK<3;a-P-62Az%2632Az6VP-aD3;K<#SS<-K;3Da-PV6zA2AC*AKSzPV3-3D<;#<<S<#;<#3-aVPzPr6nAA%62a2AV3-KD#;S<2S;#DK-;-Da;3;PSKSK.Ps(z3VK-#v-6g222xz;-h-P-ADK<;S3#S%a2DzKV#-S2-A-%BzV2AVP323<aAP66PKS#-3Da-aKA66SAA/DSVSPK2K83A<###SVS6PS2#z-V<-;DD2-v<z22S#7K<36aPPa#3S3#;KA3VaPP;6;;V;SS2SQ#A;<DSDSSSSDS<#zK6aVaB--Dz;z<2<{V<#6Ka3aa3PKSnASGV2;zDV-PaA2A-83<AS##PKa33<<<;S<S3K22Dz2VV-zD2AzTK{<SP#aK33KKVPS6<A;6D##zVV2-2-?DA;<<PSa#;KK3<aSP<6;ADn-2V2#V2VA-ADP;P<KS3SSK;3SaDP;PfA-uV2zC22AVA-aDP;K<3<P##KS#Ka;Pz6-Az,z222cGAV#-PD#;3<<S#SAK<#;K6P-PMAzA6U52Vz6VP#*D3;;<#S<#<K;3DK-a-6z6PAeI326z-Vaz3-K;#<-S<#zKD3VaV3zPA61AK,62azaVz-KD#DA<<Sz#D#n3V3PP2Pd62A6rS2azKVK-#DS-<<zSDSAKVKPa2a;PAa6##la2;zKV--S-3;;<D<-#V#a323AaAP66PPaM;2KzVVS-2D;D3<-;V#2K2KK3AaSPP63A36K{DzSzM-;D-;-;#Sz#2S-KA3SaPP;63AV #2S2<V;-VD-DP<z<AS(SP#<3Pa#P3PAA#8S2<k;2a---9;z;6<!S<#6#3SVa3PD6#A;Q<2;zDV-V<DzD6;Y<KS6#3Ka#3KAP#6DA<dV2Dz2VV-zV;Dj;K<6S3#aK33K3<3P6<61JDn8zVVz-2zq-C;6<<Sa#DKKKaaSP<62ADAP2V2AV2Vf-AD6nP<aSD#KK<3SaDP;6D<3yV,3z2zhVA-PDPDa<DSK#zKSK1a;PV6-AVA;222PzAV<-PDK;3DKS-#SK-3;azP-PPAzR2AS2Az3VP-KD3;#<#SSSVK;3Da-Pz6zA2A>}6APzPVa-3-SA<<SS<#;K-3-aVPza26SAAX62PzaV3-<D#D;;;S;#-K-K#azP2P,6A6-0P2Kz3VK-#DS;<<;SV#-KV3z3AahPP6663A#23z#V#-zD<;;<D;-<PKzK>3la6P66zAaA#K6z#VD-<-A;D<-SV#z<VKu36a6PK6aA#/KA#2KV<--DD;-<V<K#2#CKP36aKPa6SAKd#2S2DzD-D-d;V;PS2SJ#AK63#aaP;6KAVCS2<z;zA3VDVD3<2<6SA#PKP3Sa3PKa-ASj<2;2)V--VDz;2-3<AS6#PK;33aKP#6SPzk;2Dz-V2-zD2D0;AD#SP#aK33;a#PS6<P;#<2-23VzVA-ND;;6DPPK#3Kz3#3JP<6-ADA6Szzzz<Vq-6D6;a<aS<#KK##Va<P;6DA2.V2zz2zJ2K-6DP;a<;SK##KS3<K2PD6-AVAa222*zAV6zSDa;3<KS<#SK<3;aDD66V6Kg2F;2AzPVPza6P;K<2SS#;K;32a-3Vz&A2AS/A2;zPVK-3D-PS<S<P#;KD3-azPzPA6UAA6#2PzaV3-<D#;S<<S;;.K-3VazaKPn6AA6,P<Sz3Vz-#-6;<<DSD#-#S3za2asP666APea23VsVD-SD<;;;VS-#VKzKb3%aAP6P3ASQ32Kz#K;-<D;;D;z;a#zK2KpKaa6PP6aPDAS2#zSV<VbDD;V<VA4#2#a/z36aPPa6DAK^S2SzVS#-DD-;V;3S2SA#AK6#2aaP36KASMS2<z;zV3MDV;z<2AASA#6KP#aS2PK6#AS^<2;6PV-V2-#;2;A<A2S#PKa33aK3a6SA<9;2Vz-V2-zVA-#;A<PSP23K33Ka#3SP6A;F-2-zzVze#-g-P;-<PSK#3zK3#aSP<6;P3B-2zzzzAVh-PD6D3ASS3#SK#V<a<P;6DP-3#2z2AzgVP-6zD;a;#<2##KD3<-6PD6-AV*z/<2,zPV6-3Da;#<K<<#-K<3VaDDV6VAz8267BKz6VK-aDS;K-2SSSDSa3D3FPV;zA2AwnA26zaVa-SDK;<<SSD#;#VzZaVa662;AAA=62PlaA2-KDD;S<VS;DPK-K2K3P2P36A<6xP2az3VK-VDS;V<;SV#-K23zKAa;PA6#APS323zKV#zSV:;;;WS-S6Kz<#3f3Paa6PA;)3#Kz#VS-<D;D7<-<6#z#AK&3Pa6a3;SA3!-2#K<V<-;DD--z#SzS3#hK#36#DPaP#ADO#22z<3;-DD-;V<z<3Sj##K633aaP#6K6<y-2<2AVDaVDV;z<2D)S2#6K;3aa-PK32ASADrazDza-VPK;2;Y<AS6SPKa3-aKP<6SADI;yV#CVVVKD2PA;A<6SP<a;23Ka2PSPAA;aP2-22z2-2-<DAPo<PSa#3KK3DaSaA6;AVl-22zz2AzV-ADD;PA3S3#KK##Sa-P;PaA-AK2z6#zezP-zDP;z<3Aa##KS3<a;a-6-6KZzQA2gzPV6V3PS;3;vS#2<K<3;aD3-##AzA<dM2Dz6?D-a-#DP<#<P#<V;3Da-PV6zPLAhJD26z3Va-#DKD<DPS<S3KDVVaVPz62ayAS*62zzazW-Kz2;S;D<##D#S3V#DP2Px6AA6A;2a2+VK-<DS;D<;<VHgKVK;a2-APA66AP6aP2zKzP-S-3;;VPS-S2S6323VaAD66PAaj32KlAVSV3D;;V<-S2#zSAK;3Aa2PP;3A3*K2#YS23-;-S;-;;SzD##0#PKDaPa663<Kg#2Sz<V;zPD-D;<z<ASI#PK6K3-SP3PaA#S<2<z;VDz-+#;z;V<oS2#6<D3a3#P#6#6#{<SSzDV--VDzD-;t<2S6#3Ka3#aKa<aPA<A<2DKVVV-zD2V9D3<6<6#a#a3K#2PSPDAz>DM-zVK--2-nDA;6<aSaSaKK3<aSPD6;6V<G2V2zV23A-AD6;PDa-2#K##3S3<P;KPA-A2wzz22AVA3BDP;a<3SK#VKSK<a;PV6-A2TzAA2KzAzP-PP3;3<KS#<S#a3;3-P-PzAza#t>YP2<VPVKD3Pa<#SS#<K;#6a-az6z6AAd7P26233S-3-S;#A<S<#;KD#-<#PzaA6t6P066Dzaz#zAD#DD<<AS#DK-3Vaz3PP,PPA6q32az#VKV<DV;<;VSD2VKV3za2KjaV666Kca^SzK?2-S-D-6<D;>#V2-323)aAP6PAAaAS2Kz<VS-DD;DV6bSV<6K2zA3Aa6PPaa32:KxDzSzV-;2P;-;2<<#2S3KAzJaPPa63AKA;2S2VV;-VD-;2<z;A<D#A##3P-3P36KA#6SF6z;2r--V6;zV#<?<P#<KPK;a3-a6#ASH<2;2zV-z6DzDA;q<PS6S3zS333-P#;<A<%;2DL-6#-zV3DRD#<6DD#a##32a#a26<a#sD2-zVVzV6-=-#;6<3Sa##KKK<a;P<aAADSV2VzzV22?-VD6D;<a<-#K<23S3D3a6DPakV6Dz2zsVA-6DV;a;-SK#<KS3Da;aVDXAV6K22#AzAV6-PVaz2<K<2#SSA3;SPP-P26<k2A<2AQ2VP-aD3;K;aSS<AK;3Va-P26zPA6DcA!DzP33-3DK;#DSS2#;Sa3-KKPzK#6}6P&S2P2zV32PD#;S<<S;SzK-#KazaAPs6PA6A3#Sz320-#P<;<<;SD<-D#3zK<adaD66aDQaR#zzV#zPD<V#<DS-#VKz#-3(3DP663Aae#2K2<z<-<V3;DAVSV#zK2Sb3;a6az6aPt8K62zSzDz6DD-S<VDD#2#fKA36aaPaamAKl<2SzDV;VVaT;VD;S25A#AK63PKa#26KPPxSA3z;AP---2-#<2;VSA<2KP3aa3PKaaAS632;zVV--2Dz-A;<<A<2#Pz333aKP#aSP3b;ASz-2;-z2#DgDP;6SP<6K3VKa#PS6<A;A22-b;VzVA-UDP;6;3WS#3Sa3#-<P<6;AD6-a#zz2VVXV2D6VD<a<##<K###a<D;6DA-FV2z96zsz2-6D3;a<#SKS<#<3<K<PD;VAV0z22A4zaV6z6Da-a<KD2#S#DK-aD3-6Vazq2WW2Az6zV-aVa;K<<SS#DK;KVVEPVazA2<AFA26zP2a82DK-#<S;<#;;P3-323662aAAA322PzaV3-K-2;SD<S;#VK-32az3AaD6APPUP#3z3VK-#VS-P<;;-#-Sz3zS#apaPPPAP6K23<aV#-SD<;;<zS-<zKzKA3FaPP63P;#%32Kz#SS-<2A;D;zPK#z<AKh<Ka6PP6aP36P2#q;V<z-DDD-<V;z<<#kSP36K3Pa#DAK6#A3z<2--DVz;V26S2<6#SK6##aaPK6KA#ZS2<z2VDzzDVV6<2<6SAS6K;3aa3PK;zAS6D2;2VKt-Vzd;2AA<AS6#PSa-2aK3<6SPDj;;Pz-2VVDD2V6;ADaSPzVK3KKa<PS6<A;DP2-U2Vz22-<DA;P<PPa#32h3#3S3a6;A-1-SazzV2V/VP-#;PDKS3V<K#3Sa<3;aPA-622zAAzHA#-6-32K<3;<##<z3<a;PDPzPP}z6P25A#V6-PDaD#D6S#<VK<<7aDP-6VAz6KdxAPz62S-aD#;K;#<A#<KD3D3DPV3sA266C<26x3Vaz<DK;#<S;<<KKD#zaVKp623SAAAaA#za2S-KA2;S<<S;SV#P3V#6P2VA6AA69PRKzVVKz-DS6%<;SD#-#2K<a2KKPA-PAP4a23zKz.-SVD;;-
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local SSMax = Instance.new("ScreenGui")
+local UI = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local Bar1 = Instance.new("Frame")
+local Bar2 = Instance.new("Frame")
+local Bar3 = Instance.new("Frame")
+local Bar4 = Instance.new("Frame")
+local Scripts = Instance.new("TextBox")
+local Close = Instance.new("TextButton")
+local Minimize = Instance.new("TextButton")
+local Logo = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local Bar5 = Instance.new("Frame")
+local Bar6 = Instance.new("Frame")
+local Clear = Instance.new("TextButton")
+local OpenFile = Instance.new("TextButton")
+local ExecuteFile = Instance.new("TextButton")
+local SaveFile = Instance.new("TextButton")
+local Options = Instance.new("TextButton")
+local Execute = Instance.new("TextButton")
+local Attach = Instance.new("TextButton")
+local ScriptHub = Instance.new("TextButton")
+local _1 = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local _3 = Instance.new("TextLabel")
+local _4 = Instance.new("TextLabel")
+local _1_2 = Instance.new("TextLabel")
+local _6 = Instance.new("TextLabel")
+local _7 = Instance.new("TextLabel")
+local TextInput1 = Instance.new("Frame")
+local TextBar = Instance.new("Frame")
+local Remotes = Instance.new("Folder")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local BoolValue = Instance.new("BoolValue")
+
+--Properties:
+
+SSMax.Name = "SSMax"
+SSMax.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SSMax.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+UI.Name = "UI"
+UI.Parent = SSMax
+UI.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+UI.Position = UDim2.new(0.227283075, 0, 0.313816726, 0)
+UI.Size = UDim2.new(0, 758, 0, 299)
+
+TextBox.Parent = UI
+TextBox.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0790915787, 0, 0.163631782, 0)
+TextBox.Size = UDim2.new(0, 597, 0, 236)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.Text = "--Code Here"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+Bar1.Name = "Bar1"
+Bar1.Parent = UI
+Bar1.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar1.BorderSizePixel = 0
+Bar1.Position = UDim2.new(0.0499342978, 0, 0.0940170959, 0)
+Bar1.Size = UDim2.new(0, 623, 0, 8)
+
+BoolValue.Name = "Value"
+BoolValue.Parent = Remotes
+
+Bar2.Name = "Bar2"
+Bar2.Parent = UI
+Bar2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar2.BorderSizePixel = 0
+Bar2.Position = UDim2.new(0.0341655724, 0, 0.0940170959, 0)
+Bar2.Size = UDim2.new(0, 12, 0, 263)
+
+Bar3.Name = "Bar3"
+Bar3.Parent = UI
+Bar3.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar3.BorderSizePixel = 0
+Bar3.Position = UDim2.new(0, 0, 0.840455949, 0)
+Bar3.Size = UDim2.new(0, 757, 0, 55)
+
+Bar4.Name = "Bar4"
+Bar4.Parent = UI
+Bar4.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar4.BorderSizePixel = 0
+Bar4.Position = UDim2.new(0.868593931, 0, 0.0940170959, 0)
+Bar4.Size = UDim2.new(0, 7, 0, 270)
+
+Scripts.Name = "Scripts"
+Scripts.Parent = UI
+Scripts.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Scripts.BorderSizePixel = 0
+Scripts.Position = UDim2.new(0.877792358, 0, 0.113960117, 0)
+Scripts.Size = UDim2.new(0, 82, 0, 256)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = ""
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextSize = 14.000
+
+Close.Name = "Close"
+Close.Parent = UI
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.96977663, 0, 0, 0)
+Close.Size = UDim2.new(0, 23, 0, 23)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Minimize.Name = "Minimize"
+Minimize.Parent = UI
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BackgroundTransparency = 1.000
+Minimize.Position = UDim2.new(0.939553261, 0, 0, 0)
+Minimize.Size = UDim2.new(0, 23, 0, 23)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "_"
+Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextScaled = true
+Minimize.TextSize = 14.000
+Minimize.TextWrapped = true
+
+Logo.Name = "Logo"
+Logo.Parent = UI
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.Position = UDim2.new(0, 0, 0.00668896316, 0)
+Logo.Size = UDim2.new(0, 33, 0, 34)
+Logo.Image = "http://www.roblox.com/asset/?id=9524079125"
+
+Title.Name = "Title"
+Title.Parent = UI
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.349540085, 0, 0, 0)
+Title.Size = UDim2.new(0, 200, 0, 33)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Synapse X  - V1.2"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 16.000
+Title.TextWrapped = true
+
+Bar5.Name = "Bar5"
+Bar5.Parent = UI
+Bar5.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar5.BorderSizePixel = 0
+Bar5.Position = UDim2.new(0.877792358, 0, 0.0940170959, 0)
+Bar5.Size = UDim2.new(0, 82, 0, 8)
+
+Bar6.Name = "Bar6"
+Bar6.Parent = UI
+Bar6.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar6.BorderSizePixel = 0
+Bar6.Position = UDim2.new(0.985971928, 0, 0.0940170959, 0)
+Bar6.Size = UDim2.new(0, 11, 0, 263)
+
+Clear.Name = "Clear"
+Clear.Parent = UI
+Clear.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.160949871, 0, 0.874643981, 0)
+Clear.Size = UDim2.new(0, 84, 0, 32)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextSize = 17.000
+
+OpenFile.Name = "OpenFile"
+OpenFile.Parent = UI
+OpenFile.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+OpenFile.BorderSizePixel = 0
+OpenFile.Position = UDim2.new(0.281002641, 0, 0.874643981, 0)
+OpenFile.Size = UDim2.new(0, 79, 0, 32)
+OpenFile.Font = Enum.Font.SourceSans
+OpenFile.Text = "Open File"
+OpenFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenFile.TextSize = 17.000
+
+ExecuteFile.Name = "ExecuteFile"
+ExecuteFile.Parent = UI
+ExecuteFile.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ExecuteFile.BorderSizePixel = 0
+ExecuteFile.Position = UDim2.new(0.397097617, 0, 0.874643981, 0)
+ExecuteFile.Size = UDim2.new(0, 76, 0, 32)
+ExecuteFile.Font = Enum.Font.SourceSans
+ExecuteFile.Text = "Execute File"
+ExecuteFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteFile.TextSize = 17.000
+
+SaveFile.Name = "SaveFile"
+SaveFile.Parent = UI
+SaveFile.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SaveFile.BorderSizePixel = 0
+SaveFile.Position = UDim2.new(0.510554075, 0, 0.874643981, 0)
+SaveFile.Size = UDim2.new(0, 78, 0, 32)
+SaveFile.Font = Enum.Font.SourceSans
+SaveFile.Text = "Save File"
+SaveFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaveFile.TextSize = 17.000
+
+Options.Name = "Options"
+Options.Parent = UI
+Options.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Options.BorderSizePixel = 0
+Options.Position = UDim2.new(0.625329852, 0, 0.874643981, 0)
+Options.Size = UDim2.new(0, 77, 0, 32)
+Options.Font = Enum.Font.SourceSans
+Options.Text = "Options"
+Options.TextColor3 = Color3.fromRGB(255, 255, 255)
+Options.TextSize = 17.000
+
+Execute.Name = "Execute"
+Execute.Parent = UI
+Execute.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.0501319245, 0, 0.874643981, 0)
+Execute.Size = UDim2.new(0, 74, 0, 32)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 17.000
+
+Attach.Name = "Attach"
+Attach.Parent = UI
+Attach.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Attach.BorderColor3 = Color3.fromRGB(53, 53, 53)
+Attach.BorderSizePixel = 0
+Attach.Position = UDim2.new(0.745382726, 0, 0.874644041, 0)
+Attach.Size = UDim2.new(0, 77, 0, 25)
+Attach.Font = Enum.Font.SourceSans
+Attach.Text = "Attach"
+Attach.TextColor3 = Color3.fromRGB(255, 255, 255)
+Attach.TextSize = 17.000
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = UI
+ScriptHub.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.87183404, 0, 0.874643981, 0)
+ScriptHub.Size = UDim2.new(0, 86, 0, 32)
+ScriptHub.Font = Enum.Font.SourceSans
+ScriptHub.Text = "Script Hub"
+ScriptHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHub.TextSize = 17.000
+
+_1.Name = "1"
+_1.Parent = UI
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1.BackgroundTransparency = 1.000
+_1.Position = UDim2.new(0.0487485714, 0, 0.116809115, 0)
+_1.Size = UDim2.new(0, 23, 0, 33)
+_1.Font = Enum.Font.SourceSans
+_1.Text = "1"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextSize = 16.000
+_1.TextWrapped = true
+
+_2.Name = "2"
+_2.Parent = UI
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.Position = UDim2.new(0.0487485752, 0, 0.210826218, 0)
+_2.Size = UDim2.new(0, 23, 0, 33)
+_2.Font = Enum.Font.SourceSans
+_2.Text = "2"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextSize = 16.000
+_2.TextWrapped = true
+
+_3.Name = "3"
+_3.Parent = UI
+_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3.BackgroundTransparency = 1.000
+_3.Position = UDim2.new(0.0500678346, 0, 0.304843307, 0)
+_3.Size = UDim2.new(0, 23, 0, 33)
+_3.Font = Enum.Font.SourceSans
+_3.Text = "3"
+_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3.TextSize = 16.000
+_3.TextWrapped = true
+
+_4.Name = "4"
+_4.Parent = UI
+_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4.BackgroundTransparency = 1.000
+_4.Position = UDim2.new(0.0500678346, 0, 0.398860395, 0)
+_4.Size = UDim2.new(0, 23, 0, 33)
+_4.Font = Enum.Font.SourceSans
+_4.Text = "4"
+_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+_4.TextSize = 16.000
+_4.TextWrapped = true
+
+_1_2.Name = "1"
+_1_2.Parent = UI
+_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_2.BackgroundTransparency = 1.000
+_1_2.Position = UDim2.new(0.0500678346, 0, 0.492877483, 0)
+_1_2.Size = UDim2.new(0, 23, 0, 33)
+_1_2.Font = Enum.Font.SourceSans
+_1_2.Text = "5"
+_1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1_2.TextSize = 16.000
+_1_2.TextWrapped = true
+
+_6.Name = "6"
+_6.Parent = UI
+_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_6.BackgroundTransparency = 1.000
+_6.Position = UDim2.new(0.0500678346, 0, 0.586894572, 0)
+_6.Size = UDim2.new(0, 23, 0, 33)
+_6.Font = Enum.Font.SourceSans
+_6.Text = "6"
+_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+_6.TextSize = 16.000
+_6.TextWrapped = true
+
+_7.Name = "7"
+_7.Parent = UI
+_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_7.BackgroundTransparency = 1.000
+_7.Position = UDim2.new(0.0487485752, 0, 0.68091166, 0)
+_7.Size = UDim2.new(0, 23, 0, 33)
+_7.Font = Enum.Font.SourceSans
+_7.Text = "7"
+_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+_7.TextSize = 16.000
+_7.TextWrapped = true
+
+TextInput1.Name = "TextInput1"
+TextInput1.Parent = UI
+TextInput1.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextInput1.BorderColor3 = Color3.fromRGB(135, 135, 135)
+TextInput1.Position = UDim2.new(0.0804108381, 0, 0.116809145, 0)
+TextInput1.Size = UDim2.new(0, 582, 0, 14)
+
+TextBar.Name = "TextBar"
+TextBar.Parent = UI
+TextBar.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextBar.BorderColor3 = Color3.fromRGB(135, 135, 135)
+TextBar.Position = UDim2.new(0.84828496, 0, 0.116809145, 0)
+TextBar.Size = UDim2.new(0, 15, 0, 216)
+
+Remotes.Name = "Remotes"
+Remotes.Parent = UI
+
+UIAspectRatioConstraint.Parent = UI
+UIAspectRatioConstraint.AspectRatio = 2.535
+
+-- Scripts:
+
+Execute.MouseButton1Up:Connect(function()
+	if BoolValue.Value == true then
+		loadstring(TextBox.Text)()
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification",{
+			Title = "Executed",
+			Text = "Synapse X V1.2",
+			Duration = 5
+		})
+	else
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification",{
+			Title = "Attach To Execute",
+			Text = "Synapse X V1.2",
+			Duration = 5
+		})
+	end
+end)
+
+
+local function DGMZOC_fake_script() -- UI.DragScript 
+	local script = Instance.new('LocalScript', UI)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(DGMZOC_fake_script)()
+
+Attach.MouseButton1Up:Connect(function()
+	if BoolValue.Value == true then
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification",{
+			Title = "Is Alr Injected",
+			Text = "Synapse X V1.2",
+			Duration = 5
+		})
+	else
+		BoolValue.Value = true
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification",{
+			Title = "Injected",
+			Text = "Synapse X V1.2",
+			Duration = 5
+		})
+	end
+end)
