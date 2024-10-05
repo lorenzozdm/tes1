@@ -1,0 +1,867 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local SSMax = Instance.new("ScreenGui")
+local UI = Instance.new("Frame")
+local Input = Instance.new("TextBox")
+local Bar1 = Instance.new("Frame")
+local Bar2 = Instance.new("Frame")
+local Bar3 = Instance.new("Frame")
+local Bar4 = Instance.new("Frame")
+local _1 = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local Minimize = Instance.new("TextButton")
+local Logo = Instance.new("ImageLabel")
+local Title = Instance.new("TextLabel")
+local Bar5 = Instance.new("Frame")
+local Bar6 = Instance.new("Frame")
+local Clear = Instance.new("TextButton")
+local OpenFile = Instance.new("TextButton")
+local ExecuteFile = Instance.new("TextButton")
+local SaveFile = Instance.new("TextButton")
+local Options = Instance.new("TextButton")
+local Execute = Instance.new("TextButton")
+local Attach = Instance.new("TextButton")
+local ScriptHub = Instance.new("TextButton")
+local _1_2 = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local _3 = Instance.new("TextLabel")
+local _4 = Instance.new("TextLabel")
+local _6 = Instance.new("TextLabel")
+local _7 = Instance.new("TextLabel")
+local TextInput1 = Instance.new("Frame")
+local TextBar = Instance.new("Frame")
+local Remotes = Instance.new("Folder")
+local Dex = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local m = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Lt2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+
+--Properties:
+
+SSMax.Name = "SSMax"
+SSMax.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SSMax.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+UI.Name = "UI"
+UI.Parent = SSMax
+UI.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+UI.BorderColor3 = Color3.fromRGB(27, 42, 53)
+UI.Position = UDim2.new(0.270051748, 0, 0.313869178, 0)
+UI.Size = UDim2.new(0, 758, 0, 299)
+
+Input.Name = "Input"
+Input.Parent = UI
+Input.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+Input.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Input.BorderSizePixel = 0
+Input.Position = UDim2.new(0.0605507791, 0, 0.163631886, 0)
+Input.Size = UDim2.new(0, 614, 0, 228)
+Input.ClearTextOnFocus = false
+Input.Font = Enum.Font.SourceSansBold
+Input.MultiLine = true
+Input.Text = "--[-] Synapse X v1.2 Updated! [-]New Roblox Version!"
+Input.TextColor3 = Color3.fromRGB(255, 255, 255)
+Input.TextSize = 14.000
+Input.TextXAlignment = Enum.TextXAlignment.Left
+Input.TextYAlignment = Enum.TextYAlignment.Top
+
+Bar1.Name = "Bar1"
+Bar1.Parent = UI
+Bar1.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Bar1.BorderSizePixel = 0
+Bar1.Position = UDim2.new(0.0499342978, 0, 0.0940170959, 0)
+Bar1.Size = UDim2.new(0, 623, 0, 8)
+
+Bar2.Name = "Bar2"
+Bar2.Parent = UI
+Bar2.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Bar2.BorderSizePixel = 0
+Bar2.Position = UDim2.new(0.0341655761, 0, 0.0940171033, 0)
+Bar2.Size = UDim2.new(0, 20, 0, 263)
+
+Bar3.Name = "Bar3"
+Bar3.Parent = UI
+Bar3.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Bar3.BorderSizePixel = 0
+Bar3.Position = UDim2.new(0, 0, 0.840455949, 0)
+Bar3.Size = UDim2.new(0, 757, 0, 55)
+
+Bar4.Name = "Bar4"
+Bar4.Parent = UI
+Bar4.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Bar4.BorderSizePixel = 0
+Bar4.Position = UDim2.new(0.868593931, 0, 0.0940170959, 0)
+Bar4.Size = UDim2.new(0, 7, 0, 270)
+
+_1.Name = "1"
+_1.Parent = UI
+_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1.BackgroundTransparency = 1.000
+_1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_1.Position = UDim2.new(0.0276403911, 0, 0.140220508, 0)
+_1.Size = UDim2.new(0, 23, 0, 33)
+_1.Font = Enum.Font.SourceSans
+_1.Text = "1"
+_1.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1.TextSize = 16.000
+_1.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = UI
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Close.Position = UDim2.new(0.96977663, 0, 0, 0)
+Close.Size = UDim2.new(0, 23, 0, 23)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Minimize.Name = "Minimize"
+Minimize.Parent = UI
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BackgroundTransparency = 1.000
+Minimize.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Minimize.Position = UDim2.new(0.939553261, 0, 0, 0)
+Minimize.Size = UDim2.new(0, 23, 0, 23)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "_"
+Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextScaled = true
+Minimize.TextSize = 14.000
+Minimize.TextWrapped = true
+
+Logo.Name = "Logo"
+Logo.Parent = UI
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Logo.Size = UDim2.new(0, 38, 0, 33)
+Logo.Image = "http://www.roblox.com/asset/?id=9524079125"
+
+Title.Name = "Title"
+Title.Parent = UI
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title.Position = UDim2.new(0.349540085, 0, 0, 0)
+Title.Size = UDim2.new(0, 200, 0, 33)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Synapse X v1.2"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 16.000
+Title.TextWrapped = true
+
+Bar5.Name = "Bar5"
+Bar5.Parent = UI
+Bar5.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Bar5.BorderSizePixel = 0
+Bar5.Position = UDim2.new(0.877792358, 0, 0.0940170959, 0)
+Bar5.Size = UDim2.new(0, 82, 0, 8)
+
+Bar6.Name = "Bar6"
+Bar6.Parent = UI
+Bar6.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Bar6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Bar6.BorderSizePixel = 0
+Bar6.Position = UDim2.new(0.985971928, 0, 0.0940170959, 0)
+Bar6.Size = UDim2.new(0, 11, 0, 263)
+
+Clear.Name = "Clear"
+Clear.Parent = UI
+Clear.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Clear.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.160949871, 0, 0.874643981, 0)
+Clear.Size = UDim2.new(0, 84, 0, 32)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextSize = 17.000
+
+OpenFile.Name = "OpenFile"
+OpenFile.Parent = UI
+OpenFile.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+OpenFile.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OpenFile.BorderSizePixel = 0
+OpenFile.Position = UDim2.new(0.281002641, 0, 0.874643981, 0)
+OpenFile.Size = UDim2.new(0, 79, 0, 32)
+OpenFile.Font = Enum.Font.SourceSans
+OpenFile.Text = "Open File"
+OpenFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenFile.TextSize = 17.000
+
+ExecuteFile.Name = "ExecuteFile"
+ExecuteFile.Parent = UI
+ExecuteFile.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ExecuteFile.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ExecuteFile.BorderSizePixel = 0
+ExecuteFile.Position = UDim2.new(0.397097617, 0, 0.874643981, 0)
+ExecuteFile.Size = UDim2.new(0, 76, 0, 32)
+ExecuteFile.Font = Enum.Font.SourceSans
+ExecuteFile.Text = "Execute File"
+ExecuteFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteFile.TextSize = 17.000
+
+SaveFile.Name = "SaveFile"
+SaveFile.Parent = UI
+SaveFile.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+SaveFile.BorderColor3 = Color3.fromRGB(27, 42, 53)
+SaveFile.BorderSizePixel = 0
+SaveFile.Position = UDim2.new(0.510554075, 0, 0.874643981, 0)
+SaveFile.Size = UDim2.new(0, 78, 0, 32)
+SaveFile.Font = Enum.Font.SourceSans
+SaveFile.Text = "Save File"
+SaveFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaveFile.TextSize = 17.000
+
+Options.Name = "Options"
+Options.Parent = UI
+Options.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Options.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Options.BorderSizePixel = 0
+Options.Position = UDim2.new(0.625329852, 0, 0.874643981, 0)
+Options.Size = UDim2.new(0, 77, 0, 32)
+Options.Font = Enum.Font.SourceSans
+Options.Text = "Options"
+Options.TextColor3 = Color3.fromRGB(255, 255, 255)
+Options.TextSize = 17.000
+
+Execute.Name = "Execute"
+Execute.Parent = UI
+Execute.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Execute.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.0501319245, 0, 0.874643981, 0)
+Execute.Size = UDim2.new(0, 74, 0, 32)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 17.000
+
+Attach.Name = "Attach"
+Attach.Parent = UI
+Attach.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Attach.BorderColor3 = Color3.fromRGB(53, 53, 53)
+Attach.BorderSizePixel = 0
+Attach.Position = UDim2.new(0.745382726, 0, 0.874644041, 0)
+Attach.Size = UDim2.new(0, 77, 0, 25)
+Attach.Font = Enum.Font.SourceSans
+Attach.Text = "Attach"
+Attach.TextColor3 = Color3.fromRGB(255, 255, 255)
+Attach.TextSize = 17.000
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = UI
+ScriptHub.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScriptHub.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScriptHub.BorderSizePixel = 0
+ScriptHub.Position = UDim2.new(0.87183404, 0, 0.874643981, 0)
+ScriptHub.Size = UDim2.new(0, 86, 0, 32)
+ScriptHub.Font = Enum.Font.SourceSans
+ScriptHub.Text = "Script Hub"
+ScriptHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHub.TextSize = 17.000
+
+_1_2.Name = "1"
+_1_2.Parent = UI
+_1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1_2.BackgroundTransparency = 1.000
+_1_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_1_2.Position = UDim2.new(0.0289596524, 0, 0.512944341, 0)
+_1_2.Size = UDim2.new(0, 23, 0, 33)
+_1_2.Font = Enum.Font.SourceSans
+_1_2.Text = "5"
+_1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_1_2.TextSize = 16.000
+_1_2.TextWrapped = true
+
+_2.Name = "2"
+_2.Parent = UI
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_2.Position = UDim2.new(0.0276403911, 0, 0.230893135, 0)
+_2.Size = UDim2.new(0, 23, 0, 33)
+_2.Font = Enum.Font.SourceSans
+_2.Text = "2"
+_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+_2.TextSize = 16.000
+_2.TextWrapped = true
+
+_3.Name = "3"
+_3.Parent = UI
+_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_3.BackgroundTransparency = 1.000
+_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_3.Position = UDim2.new(0.0289596524, 0, 0.324910134, 0)
+_3.Size = UDim2.new(0, 23, 0, 33)
+_3.Font = Enum.Font.SourceSans
+_3.Text = "3"
+_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+_3.TextSize = 16.000
+_3.TextWrapped = true
+
+_4.Name = "4"
+_4.Parent = UI
+_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4.BackgroundTransparency = 1.000
+_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_4.Position = UDim2.new(0.0289596524, 0, 0.418927252, 0)
+_4.Size = UDim2.new(0, 23, 0, 33)
+_4.Font = Enum.Font.SourceSans
+_4.Text = "4"
+_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+_4.TextSize = 16.000
+_4.TextWrapped = true
+
+_6.Name = "6"
+_6.Parent = UI
+_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_6.BackgroundTransparency = 1.000
+_6.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_6.Position = UDim2.new(0.0289596524, 0, 0.60696137, 0)
+_6.Size = UDim2.new(0, 23, 0, 33)
+_6.Font = Enum.Font.SourceSans
+_6.Text = "6"
+_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+_6.TextSize = 16.000
+_6.TextWrapped = true
+
+_7.Name = "7"
+_7.Parent = UI
+_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_7.BackgroundTransparency = 1.000
+_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+_7.Position = UDim2.new(0.0276403911, 0, 0.700978577, 0)
+_7.Size = UDim2.new(0, 23, 0, 33)
+_7.Font = Enum.Font.SourceSans
+_7.Text = "7"
+_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+_7.TextSize = 16.000
+_7.TextWrapped = true
+
+TextInput1.Name = "TextInput1"
+TextInput1.Parent = UI
+TextInput1.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextInput1.BorderColor3 = Color3.fromRGB(135, 135, 135)
+TextInput1.Position = UDim2.new(0.0499966517, 0, 0.116809145, 0)
+TextInput1.Size = UDim2.new(0, 605, 0, 14)
+
+TextBar.Name = "TextBar"
+TextBar.Parent = UI
+TextBar.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextBar.BorderColor3 = Color3.fromRGB(135, 135, 135)
+TextBar.Position = UDim2.new(0.84828496, 0, 0.116809145, 0)
+TextBar.Size = UDim2.new(0, 15, 0, 216)
+
+Remotes.Name = "Remotes"
+Remotes.Parent = UI
+
+Dex.Name = "Dex"
+Dex.Parent = UI
+Dex.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+Dex.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Dex.Position = UDim2.new(0.877428353, 0, 0.137123749, 0)
+Dex.Size = UDim2.new(0, 82, 0, 23)
+Dex.Font = Enum.Font.Unknown
+Dex.Text = "Dex"
+Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex.TextScaled = true
+Dex.TextSize = 14.000
+Dex.TextWrapped = true
+
+UICorner.Parent = Dex
+
+Fly.Name = "Fly"
+Fly.Parent = UI
+Fly.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+Fly.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Fly.Position = UDim2.new(0.877428353, 0, 0.230769232, 0)
+Fly.Size = UDim2.new(0, 82, 0, 23)
+Fly.Font = Enum.Font.Unknown
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+
+UICorner_2.Parent = Fly
+
+m.Name = "m"
+m.Parent = UI
+m.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+m.BorderColor3 = Color3.fromRGB(27, 42, 53)
+m.Position = UDim2.new(0.877428353, 0, 0.32441473, 0)
+m.Size = UDim2.new(0, 82, 0, 23)
+m.Font = Enum.Font.Unknown
+m.Text = "Mm2"
+m.TextColor3 = Color3.fromRGB(255, 255, 255)
+m.TextScaled = true
+m.TextSize = 14.000
+m.TextWrapped = true
+
+UICorner_3.Parent = m
+
+Lt2.Name = "Lt2"
+Lt2.Parent = UI
+Lt2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+Lt2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Lt2.Position = UDim2.new(0.877428353, 0, 0.418060213, 0)
+Lt2.Size = UDim2.new(0, 82, 0, 23)
+Lt2.Font = Enum.Font.Unknown
+Lt2.Text = "Lt2"
+Lt2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lt2.TextScaled = true
+Lt2.TextSize = 14.000
+Lt2.TextWrapped = true
+
+UICorner_4.Parent = Lt2
+
+-- Scripts:
+
+local function DSMLA_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local Close = script.Parent
+	Close.MouseButton1Up:Connect(function()
+		local StarterGui = game:GetService("StarterGui")
+		StarterGui:SetCore("SendNotification",{
+			Title = "Synapse Closed",
+			Text = "Synapse X V1.2",
+			Duration = 5
+		})
+		UI.Visible = false
+		script.Parent:WaitForChild("SSXCloser").ImageButton.Visible = true
+	end)
+end
+coroutine.wrap(DSMLA_fake_script)()
+local function WZASFQU_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local BoolValue = script.Parent.Parent.Remotes.Value
+		local TextBox = script.Parent.Parent.Input
+	
+		if BoolValue.Value == true then
+			loadstring(TextBox.Text)()
+			local StarterGui = game:GetService("StarterGui")
+			StarterGui:SetCore("SendNotification",{
+				Title = "Executed",
+				Text = "Synapse X V1.2",
+				Duration = 5
+			})
+		else
+			local StarterGui = game:GetService("StarterGui")
+			StarterGui:SetCore("SendNotification",{
+				Title = "Attach To Execute",
+				Text = "Synapse X V1.2",
+				Duration = 5
+			})
+		end
+	end)
+	
+end
+coroutine.wrap(WZASFQU_fake_script)()
+local function JBLRE_fake_script() -- Attach.LocalScript 
+	local script = Instance.new('LocalScript', Attach)
+
+	local Attach = script.Parent
+	local BoolValue = script.Parent.Parent.Remotes.Value
+	local TextBox = script.Parent.Parent.Input
+	
+	Attach.MouseButton1Up:Connect(function()
+		if BoolValue.Value == true then
+			local StarterGui = game:GetService("StarterGui")
+			StarterGui:SetCore("SendNotification",{
+				Title = "Is Alr Injected",
+				Text = "Synapse X V1.2",
+				Duration = 5
+			})
+		else
+			BoolValue.Value = true
+			local StarterGui = game:GetService("StarterGui")
+			StarterGui:SetCore("SendNotification",{
+				Title = "Injected",
+				Text = "Synapse X V1.2",
+				Duration = 5
+			})
+		end
+	end)
+end
+coroutine.wrap(JBLRE_fake_script)()
+local function LOPKTA_fake_script() -- UI.LocalScript 
+	local script = Instance.new('LocalScript', UI)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(LOPKTA_fake_script)()
+local function GSLKK_fake_script() -- Dex.LocalScript 
+	local script = Instance.new('LocalScript', Dex)
+
+	game:HttpGet("https://getexploits.com/cexecution/692741891900592128")
+	
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Neon-Fox/roblox-scripts/main/Dex-V3"))()
+end
+coroutine.wrap(GSLKK_fake_script)()
+local function EETGLUW_fake_script() -- Fly.LocalScript 
+	local script = Instance.new('LocalScript', Fly)
+
+	-- Gui to Lua
+	-- Version: 3.2
+	
+	-- Instances:
+	
+	local FlyGui = Instance.new("ScreenGui")
+	local Frame = Instance.new("Frame")
+	local UICorner = Instance.new("UICorner")
+	local X = Instance.new("TextButton")
+	local fly = Instance.new("TextButton")
+	local UICorner_2 = Instance.new("UICorner")
+	local TextLabel = Instance.new("TextLabel")
+	local X_2 = Instance.new("TextButton")
+	
+	--Properties:
+	
+	FlyGui.Name = "FlyGui"
+	FlyGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	FlyGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	FlyGui.DisplayOrder = 9999
+	FlyGui.ResetOnSpawn = false
+	
+	Frame.Parent = FlyGui
+	Frame.Active = true
+	Frame.AnchorPoint = Vector2.new(1, 1)
+	Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Frame.BackgroundTransparency = 0.200
+	Frame.Draggable = true
+	Frame.Position = UDim2.new(0.575849056, -2, 0.49253732, -207)
+	Frame.Size = UDim2.new(0.150943398, 0, 0.0932835788, 0)
+	Frame.Visible = false
+	
+	UICorner.Parent = Frame
+	
+	X.Name = "X"
+	X.Parent = Frame
+	X.AnchorPoint = Vector2.new(1, 0)
+	X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	X.BackgroundTransparency = 1.000
+	X.BorderColor3 = Color3.fromRGB(27, 42, 53)
+	X.Position = UDim2.new(1, 0, 0, 0)
+	X.Size = UDim2.new(0.150000006, 0, 0.400000006, 0)
+	X.Font = Enum.Font.SourceSans
+	X.Text = "X"
+	X.TextColor3 = Color3.fromRGB(255, 255, 255)
+	X.TextSize = 20.000
+	
+	fly.Name = "fly"
+	fly.Parent = Frame
+	fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	fly.BorderColor3 = Color3.fromRGB(27, 42, 53)
+	fly.Position = UDim2.new(0.0700000003, 0, 0.5, 0)
+	fly.Size = UDim2.new(0.875, 0, 0.333333343, 0)
+	fly.Font = Enum.Font.SourceSans
+	fly.Text = "Flying: No"
+	fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+	fly.TextSize = 14.000
+	
+	UICorner_2.Parent = fly
+	
+	TextLabel.Parent = Frame
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.BorderSizePixel = 0
+	TextLabel.Position = UDim2.new(0.00499999989, 0, 0.0399999991, 0)
+	TextLabel.Size = UDim2.new(1, 0, 0.360000014, 0)
+	TextLabel.Font = Enum.Font.Unknown
+	TextLabel.Text = "Synapse X"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 14.000
+	TextLabel.TextWrapped = true
+	
+	X_2.Name = "X"
+	X_2.Parent = FlyGui
+	X_2.AnchorPoint = Vector2.new(1, 1)
+	X_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	X_2.BackgroundTransparency = 0.800
+	X_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+	X_2.Position = UDim2.new(0.563018858, 0, 0.105721392, 0)
+	X_2.Size = UDim2.new(0.126037732, 0, 0.0509950258, 0)
+	X_2.Font = Enum.Font.SourceSans
+	X_2.Text = "Fly Gui (Open)"
+	X_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+	X_2.TextSize = 20.000
+	X_2.TextStrokeTransparency = 0.750
+	
+	-- Scripts:
+	
+	local function HEMOTL_fake_script() -- FlyGui.MainScript 
+		local script = Instance.new('Script', FlyGui)
+	
+		local Camera = workspace.CurrentCamera
+		local Tool = script.Parent
+		local Active = false
+		local Plr
+	
+		local Speed = 1.5
+	
+		Tool:GetPropertyChangedSignal("Parent"):Connect(function()
+			if Plr==nil or Tool.Parent~=Plr.PlayerGui then
+				Active = false
+			end
+		end)
+	
+		Tool.Frame.fly.MouseButton1Click:Connect(function()
+			Active = not Active
+			if not Active then
+				Tool.Frame.fly.Text = "Flying: No"
+			else
+				Tool.Frame.fly.Text = "Flying: Yes"
+				Fly()
+			end
+		end)
+	
+		Tool.Frame.X.MouseButton1Click:Connect(function()
+			Tool.Frame.Visible = false
+			Tool.X.Visible = true
+		end)
+	
+		Tool.X.MouseButton1Click:Connect(function()
+			Tool.Frame.Visible = true
+			Tool.X.Visible = false
+		end)
+	
+		function Fly()
+			wait()
+			Plr = game.Players.LocalPlayer
+			local Char = Plr.Character
+			local Human = Char:FindFirstChildOfClass("Humanoid")
+			local Torso = Char:FindFirstChild("HumanoidRootPart")
+	
+			local Force = Instance.new("BodyVelocity")
+			local Spin = Instance.new("BodyGyro")
+			Spin.P = 10000
+			Spin.MaxTorque = Vector3.new(Spin.P,Spin.P,Spin.P)*100
+			Spin.CFrame = Torso.CFrame
+	
+			Force.Velocity = Vector3.new(0,0,0)
+			Force.P = 1000
+			Force.MaxForce = Vector3.new(Force.P,Force.P,Force.P)*100
+	
+			Force.Parent = Torso
+			Spin.Parent = Torso
+	
+			Human.PlatformStand = true
+			Human.AutoRotate = false
+			Human:ChangeState(Enum.HumanoidStateType.Freefall)
+	
+			while Active do
+				wait()
+				local Push = Vector3.new(0, 0, 0)
+				local FV = Camera.CFrame:VectorToWorldSpace(Vector3.new(0, 0, -1))
+				local SV = Camera.CFrame:VectorToWorldSpace(Vector3.new(-1, 0, 0))
+	
+				local CoFrame = Camera.CFrame
+				local CV = CFrame.new(Vector3.new(0,0,0),CoFrame.LookVector*Vector3.new(1,0,1)):VectorToObjectSpace(Human.MoveDirection)
+	
+				Push = Push + ((FV * (60*Speed) * -CV.z) or Push)
+				Push = Push + ((SV * (40*Speed) * -CV.x) or Push)
+	
+				Spin.CFrame = CFrame.new(Vector3.new(0, 0, 0), FV)
+	
+				Force.Velocity = Force.Velocity:Lerp(Push, 0.2)
+	
+				if not Human.PlatformStand then
+					Human.PlatformStand = true
+				end
+	
+				if Human.AutoRotate then
+					Human.AutoRotate = false
+				end
+			end
+	
+			Spin:Destroy()
+			Force:Destroy()
+	
+			Human.PlatformStand = false
+			Human.AutoRotate = true
+		end
+	end
+	coroutine.wrap(HEMOTL_fake_script)()
+	local function BTMWXJ_fake_script() -- Frame.Grab 
+		local script = Instance.new('LocalScript', Frame)
+	
+		-- Hello Thanks For Using This Script! Please Pur It Into The StarterCharacterScript For Work
+		local CAS = game:GetService("ContextActionService")
+	
+		local GrabObject = nil
+		local GrabStart = false
+		local Dragger = nil
+	
+		local player = game.Players.LocalPlayer
+		local character = player.Character
+		local mouse = player:GetMouse()
+		local camera = game.Workspace.CurrentCamera
+	
+		function Grab(actionName, UserInputState, InputObject)
+			if actionName == "Grab" then
+				if UserInputState == Enum.UserInputState.Begin then
+					-- start grab
+					local Magnitude = (mouse.Hit.Position - character.Head.CFrame.Position).magnitude
+					if Magnitude < 10 then
+	
+						if mouse.Target then
+	
+							GrabObject = mouse.Target
+							GrabStart = true
+	
+							local DragBall = createDragBall()
+							DragBall.CFrame = mouse.Hit
+							Dragger = DragBall
+	
+							mouse.TargetFilter = GrabObject
+	
+							local DragBallWeld = weldBetween(DragBall,GrabObject)
+							addMover(DragBall)
+	
+							while Dragger do
+								--Create a ray from the users head to the mouse.
+								local cf = CFrame.new(character.Head.Position, mouse.Hit.Position)
+								Dragger.Mover.Position = (cf + (cf.LookVector * 10)).Position
+								Dragger.RotMover.CFrame = camera.CFrame * CFrame.Angles(Dragger.RotOffset.Value.X,Dragger.RotOffset.Value.Y, Dragger.RotOffset.Value.Z)
+								wait()
+							end
+							mouse.TargetFilter = nil
+						end
+					end
+				elseif UserInputState == Enum.UserInputState.End then
+					-- stop grab
+	
+					GrabObject = nil
+					GrabStart = false
+					if Dragger then
+						Dragger:Destroy()
+						Dragger = nil
+					end
+				end
+			end	
+		end
+	
+	
+		function weldBetween(a, b)
+			local weld = Instance.new("ManualWeld", a)
+			weld.C0 = a.CFrame:inverse() * b.CFrame
+			weld.Part0 = a
+			weld.Part1 = b
+			return weld
+		end
+	
+	
+		function addMover(part)
+			local newMover = Instance.new("BodyPosition")
+			newMover.Parent = part
+			newMover.MaxForce = Vector3.new(40000,40000,40000)
+			newMover.P = 40000
+			newMover.D = 1000
+			newMover.Position = part.Position
+			newMover.Name = "Mover"
+	
+			local newRot = Instance.new("BodyGyro")
+			newRot.Parent = part
+			newRot.MaxTorque = Vector3.new(3000,3000,3000)
+			newRot.P = 3000
+			newRot.D = 500
+			newRot.CFrame = game.Workspace.CurrentCamera.CFrame
+			newRot.Name = "RotMover"
+	
+			local RotOffset = Instance.new("CFrameValue")
+			RotOffset.Name = "RotOffset"
+			RotOffset.Parent = part
+		end
+	
+	
+		function createDragBall()
+			local DragBall = Instance.new("Part")
+			DragBall.BrickColor = BrickColor.new("Electric blue")
+			DragBall.Material = Enum.Material.Wood
+			DragBall.Size = Vector3.new(.2,.2,.2)
+			DragBall.Shape = "Ball"
+			DragBall.Name = "DragBall"
+			DragBall.Parent = workspace
+			return DragBall
+		end
+	
+	
+		CAS:BindAction("Grab", Grab, false, Enum.UserInputType.MouseButton1)
+	
+	end
+	coroutine.wrap(BTMWXJ_fake_script)()
+	
+end
+coroutine.wrap(EETGLUW_fake_script)()
+local function SSYGUAQ_fake_script() -- m.LocalScript 
+	local script = Instance.new('LocalScript', m)
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+end
+coroutine.wrap(SSYGUAQ_fake_script)()
+local function AUSKG_fake_script() -- Lt2.LocalScript 
+	local script = Instance.new('LocalScript', Lt2)
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))("")
+end
+coroutine.wrap(AUSKG_fake_script)()
