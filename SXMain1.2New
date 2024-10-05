@@ -435,7 +435,7 @@ UICorner_4.Parent = Lt2
 
 -- Scripts:
 
-local function DSMLA_fake_script() -- Close.LocalScript 
+local function ITKGEA_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local Close = script.Parent
@@ -450,8 +450,8 @@ local function DSMLA_fake_script() -- Close.LocalScript
 		script.Parent:WaitForChild("SSXCloser").ImageButton.Visible = true
 	end)
 end
-coroutine.wrap(DSMLA_fake_script)()
-local function WZASFQU_fake_script() -- Execute.LocalScript 
+coroutine.wrap(ITKGEA_fake_script)()
+local function QLCLWB_fake_script() -- Execute.LocalScript 
 	local script = Instance.new('LocalScript', Execute)
 
 	script.Parent.MouseButton1Up:Connect(function()
@@ -477,8 +477,8 @@ local function WZASFQU_fake_script() -- Execute.LocalScript
 	end)
 	
 end
-coroutine.wrap(WZASFQU_fake_script)()
-local function JBLRE_fake_script() -- Attach.LocalScript 
+coroutine.wrap(QLCLWB_fake_script)()
+local function UXOVXFF_fake_script() -- Attach.LocalScript 
 	local script = Instance.new('LocalScript', Attach)
 
 	local Attach = script.Parent
@@ -504,8 +504,8 @@ local function JBLRE_fake_script() -- Attach.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JBLRE_fake_script)()
-local function LOPKTA_fake_script() -- UI.LocalScript 
+coroutine.wrap(UXOVXFF_fake_script)()
+local function TVRVVD_fake_script() -- UI.LocalScript 
 	local script = Instance.new('LocalScript', UI)
 
 	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
@@ -547,16 +547,16 @@ local function LOPKTA_fake_script() -- UI.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LOPKTA_fake_script)()
-local function GSLKK_fake_script() -- Dex.LocalScript 
+coroutine.wrap(TVRVVD_fake_script)()
+local function ROQO_fake_script() -- Dex.LocalScript 
 	local script = Instance.new('LocalScript', Dex)
 
 	game:HttpGet("https://getexploits.com/cexecution/692741891900592128")
 	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Neon-Fox/roblox-scripts/main/Dex-V3"))()
 end
-coroutine.wrap(GSLKK_fake_script)()
-local function EETGLUW_fake_script() -- Fly.LocalScript 
+coroutine.wrap(ROQO_fake_script)()
+local function WOPH_fake_script() -- Fly.LocalScript 
 	local script = Instance.new('LocalScript', Fly)
 
 	-- Gui to Lua
@@ -852,16 +852,16 @@ local function EETGLUW_fake_script() -- Fly.LocalScript
 	coroutine.wrap(BTMWXJ_fake_script)()
 	
 end
-coroutine.wrap(EETGLUW_fake_script)()
-local function SSYGUAQ_fake_script() -- m.LocalScript 
+coroutine.wrap(WOPH_fake_script)()
+local function BWAYVYB_fake_script() -- m.LocalScript 
 	local script = Instance.new('LocalScript', m)
 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
 end
-coroutine.wrap(SSYGUAQ_fake_script)()
-local function AUSKG_fake_script() -- Lt2.LocalScript 
+coroutine.wrap(BWAYVYB_fake_script)()
+local function ALAN_fake_script() -- Lt2.LocalScript 
 	local script = Instance.new('LocalScript', Lt2)
 
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Butterisgood/Butter/main/Root2.lua'))("")
 end
-coroutine.wrap(AUSKG_fake_script)()
+coroutine.wrap(ALAN_fake_script)()
