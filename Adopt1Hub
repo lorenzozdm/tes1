@@ -1,0 +1,232 @@
+
+
+local Start = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Start_2 = Instance.new("TextLabel")
+local StarEarn = Instance.new("TextLabel")
+local Status = Instance.new("TextLabel")
+
+--Properties:
+
+Start.Name = "Start"
+Start.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Start.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = Start
+Frame.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.131640926, 0, 0.623134315, 0)
+Frame.Size = UDim2.new(0, 400, 0, 216)
+
+UICorner.Parent = Frame
+
+Start_2.Name = "Start"
+Start_2.Parent = Frame
+Start_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Start_2.BackgroundTransparency = 1.000
+Start_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Start_2.BorderSizePixel = 0
+Start_2.Size = UDim2.new(0, 400, 0, 39)
+Start_2.Font = Enum.Font.SourceSansBold
+Start_2.Text = "Starting Hub"
+Start_2.TextColor3 = Color3.fromRGB(42, 42, 42)
+Start_2.TextScaled = true
+Start_2.TextSize = 14.000
+Start_2.TextWrapped = true
+
+StarEarn.Name = "StarEarn"
+StarEarn.Parent = Frame
+StarEarn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StarEarn.BackgroundTransparency = 1.000
+StarEarn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+StarEarn.BorderSizePixel = 0
+StarEarn.Position = UDim2.new(0.257499993, 0, 0.819444418, 0)
+StarEarn.Size = UDim2.new(0, 193, 0, 39)
+StarEarn.Font = Enum.Font.SourceSansBold
+StarEarn.Text = "by: SuperDev88"
+StarEarn.TextColor3 = Color3.fromRGB(42, 42, 42)
+StarEarn.TextScaled = true
+StarEarn.TextSize = 14.000
+StarEarn.TextWrapped = true
+
+Status.Name = "Status"
+Status.Parent = Frame
+Status.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Status.BackgroundTransparency = 1.000
+Status.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Status.BorderSizePixel = 0
+Status.Position = UDim2.new(0.0199999996, 0, 0.407407403, 0)
+Status.Size = UDim2.new(0, 193, 0, 39)
+Status.Font = Enum.Font.SourceSansBold
+Status.Text = "Status:"
+Status.TextColor3 = Color3.fromRGB(42, 42, 42)
+Status.TextScaled = true
+Status.TextSize = 14.000
+Status.TextWrapped = true
+
+-- Scripts:
+
+local function LZGLHSU_fake_script() -- Frame.DraggableGUI 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(LZGLHSU_fake_script)()
+
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Clean Interface Injected", -- Required
+	Text = "Clean Hub", -- Required
+	Icon = "rbxassetid://1234567890" -- Optional
+})
+
+wait(1)
+
+Start_2.Text = "Clean Hub"
+Status.Text = "Waiting For Script Loader"
+
+
+
+
+
+
+
+
+
+--Script
+
+
+
+
+
+
+
+
+
+
+local teleport_table = {
+    FinalMiniGame = Vector3.new(-15978.50, 11429.72, -16375.27), 
+    StartLol = Vector3.new(4112.74, 7844.19, 16018.22), 
+
+}
+
+local tween_s = game:GetService('TweenService')
+local tweeninfo = TweenInfo.new(1,Enum.EasingStyle.Linear)
+
+local lp = game.Players.LocalPlayer
+
+function bypass_teleport(v)
+    if lp.Character and 
+    lp.Character:FindFirstChild('HumanoidRootPart') then
+        local cf = CFrame.new(v)
+        local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+        a:Play()
+        -- a.Completed:Wait()
+        -- print('Teleporting Done!')
+    end
+end
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "/DON'T WALK!/", -- Required
+    Text = "Script Loaded", -- Required
+    Icon = "rbxassetid://1234567890" -- Optional
+})
+
+bypass_teleport(teleport_table.StartLol)
+
+wait(5)
+
+local Players = game:GetService("Players")
+
+local targetPosition = Vector3.new(4112.74, 7844.19, 16018.22)
+local secondaryPosition = Vector3.new(-15978.50, 11429.72, -16375.27)
+local playerName = "SuperDev88"  -- Nome do jogador a ser monitorado
+
+-- Função para verificar a posição do jogador
+
+
+function JogadorPosSec()
+    wait(1)
+    local player = game.Players.LocalPlayer
+    local humanoidRootPart = player.Character.HumanoidRootPart
+    local currentPosition = humanoidRootPart.Position
+
+    if (currentPosition - secondaryPosition).Magnitude <= 2 then
+        print("Jogador na posição secundária, aguardando 20 segundos...")
+        wait(5)
+        bypass_teleport(teleport_table.StartLol)
+        game:GetService("StarterGui"):SetCore("SendNotification",{
+            Title = "ReStarted", -- Required
+            Text = "Clean Hub", -- Required
+            Icon = "rbxassetid://1234567890" -- Optional
+        })
+        Status.Text = "Wating For MiniGame"
+    elseif (currentPosition - targetPosition).Magnitude > 12 then
+
+        game:GetService("StarterGui"):SetCore("SendNotification",{
+            Title = "MiniGame Started (wait for Tp)", -- Required
+            Text = "Clean Hub", -- Required
+            Icon = "rbxassetid://1234567890" -- Optional
+        })
+        Status.Text = "In mini game"
+        wait(5)
+        game:GetService("StarterGui"):SetCore("SendNotification",{
+            Title = "Teleported", -- Required
+            Text = "Clean Hub", -- Required
+            Icon = "rbxassetid://1234567890" -- Optional
+        })
+        bypass_teleport(teleport_table.FinalMiniGame)
+         Status.Text = "TelePorted To Final"
+    end
+end
+
+-- Inicia a verificação da posição do jogador
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Welcome! Start Auto Farm", -- Required
+    Text = "Clean Hub", -- Required
+    Icon = "rbxassetid://1234567890" -- Optional
+})
+
+
+
+
+
+while true do
+    JogadorPosSec()
+    Status.Text = "Wating For MiniGame"
+end
