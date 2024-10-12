@@ -174,7 +174,7 @@ wait(5)
 local Players = game:GetService("Players")
 
 local targetPosition = Vector3.new(4112.74, 7844.19, 16018.22)
-local secondaryPosition = Vector3.new(-15978.50, 11429.72, -16375.27)
+local secondaryPosition = Vector3.new(-11973.07, 11421.47, -16365.01)
 local playerName = "SuperDev88"  -- Nome do jogador a ser monitorado
 
 -- Função para verificar a posição do jogador
