@@ -117,7 +117,7 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 
 wait(1)
 
-Start_2.Text = "Clean Hub"
+Start_2.Text = "Clean Hub V2"
 Status.Text = "Waiting For Script Loader"
 
 
@@ -140,7 +140,7 @@ Status.Text = "Waiting For Script Loader"
 
 
 local teleport_table = {
-    FinalMiniGame = Vector3.new(-15978.50, 11429.72, -16375.27), 
+    FinalMiniGame = Vector3.new(-11973.07, 11421.47, -16365.01), 
     StartLol = Vector3.new(4112.74, 7844.19, 16018.22), 
 
 }
