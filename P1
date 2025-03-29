@@ -1,0 +1,35 @@
+local TweenService = game:GetService("TweenService")
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local rootPart = character:WaitForChild("HumanoidRootPart")
+
+
+local playerName = player.Name
+
+
+local function getP1Path()
+    local blocos = workspace:FindFirstChild("MapaGeral")
+        and workspace.MapaGeral:FindFirstChild("GasPlace")
+        and workspace.MapaGeral.GasPlace:FindFirstChild("blocos")
+
+    local playerBloco = blocos and blocos:FindFirstChild(playerName)
+    local p1Part = playerBloco and playerBloco:FindFirstChild(playerName)
+
+    return p1Part and p1Part.CFrame or nil
+end
+
+-- Função para teletransportar suavemente
+local function teleportToP1()
+    local P1_Path = getP1Path()
+    
+    if P1_Path then
+        local tween = TweenService:Create(rootPart, TweenInfo.new(1), {CFrame = P1_Path})
+        tween:Play()
+        print("Teleportando para P1_Path:", P1_Path)
+    else
+        warn("P1_Path não encontrado!")
+    end
+end
+
+
+teleportToP1()
