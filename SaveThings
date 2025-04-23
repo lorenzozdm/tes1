@@ -1,8 +1,4 @@
-print("Script Source Released on 17.03.2024 (DD/MM/YYYY because Islands is Dead!")
-warn("THIS SCRIPT IS DISCONTINUED FROM NOW!")
-for i = 1, 50 do
-  print("Nekohub on Top | discord.gg/MbsxuDEzgT")
-end
+
 -- This is a pretty old script, so don’t joke about the source – it’s older than 90% of the Roblox community. -- 
 
 repeat wait() until game:IsLoaded()
@@ -18,11 +14,7 @@ local DeveloperVersion = true
 local NotificationIcon = "rbxassetid://1234567890"
 
 function SendNotification(Title, Text)
-	game:GetService("StarterGui"):SetCore("SendNotification",{
-		Title = Title, -- Required
-		Text = Text, -- Required
-		Icon = NotificationIcon -- Optional
-	})
+	
 end	
 
 SendNotification("Welcome!", "Welcome to "..FileName .. " " .. ScriptVersion.."!")
@@ -199,135 +191,13 @@ _G.TeleportSpeed = 30
 
 
 function TweenHello()
-	local Notify = Instance.new("ScreenGui")
-	local Background = Instance.new("Frame")
-	local UICorner = Instance.new("UICorner")
-	local Image = Instance.new("ImageLabel")
-	local UICorner_2 = Instance.new("UICorner")
-	local Label = Instance.new("TextLabel")
-	local Text = Instance.new("TextLabel")
-	local Line = Instance.new("Frame")
-
-	local TweenService = game:GetService("TweenService")
-
-	local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.Out)
-
-	Background.Position = UDim2.new(-1, 0, 0.5, 0)
-
-	local tween = TweenService:Create(Background, tweenInfo, {
-		Position = UDim2.new(0.05, 0, 0.5, 0)
-	})
-
-	local function removeNotification()
-		wait(3)
-		tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-		local tweenOut = TweenService:Create(Background, tweenInfo, {
-			Position = UDim2.new(-1, 0, 0.5, 0)
-		})
-		tweenOut:Play()
-		wait(1)
-		Notify:Destroy()
-	end
-
-
-	Notify.Name = "Notify"
-	Notify.Parent = game:GetService("CoreGui")
-	Notify.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-	Background.Name = "Background"
-	Background.Parent = Notify
-	Background.BackgroundColor3 = Color3.fromRGB(6, 5, 35)
-	Background.Position = UDim2.new(0.05, 0, 0.5, 0)
-	Background.Size = UDim2.new(0, 240, 0, 70)
-
-	UICorner.CornerRadius = UDim.new(0, 15)
-	UICorner.Parent = Background
-
-	Image.Name = "Image"
-	Image.Parent = Background
-	Image.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Image.BorderSizePixel = 0
-	Image.Position = UDim2.new(0.0291666668, 0, 0.142857149, 0)
-	Image.Size = UDim2.new(0, 50, 0, 50)
-	Image.Image = "rbxassetid://12954693578"
-	Image.ScaleType = Enum.ScaleType.Tile
-
-	UICorner_2.Parent = Image
-
-	Label.Name = "Label"
-	Label.Parent = Background
-	Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Label.BackgroundTransparency = 1.000
-	Label.BorderSizePixel = 0
-	Label.Position = UDim2.new(0.273145556, 0, 0, 0)
-	Label.Size = UDim2.new(0, 167, 0, 35)
-	Label.Font = Enum.Font.SourceSansBold
-	Label.Text = "Neko Hub V4"
-	Label.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Label.TextSize = 28.000
-
-	Text.Name = "Text"
-	Text.Parent = Background
-	Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Text.BackgroundTransparency = 1.000
-	Text.BorderSizePixel = 0
-	Text.Position = UDim2.new(0.273145556, 0, 0.50957489, 0)
-	Text.Size = UDim2.new(0, 167, 0, 24)
-	Text.Font = Enum.Font.SourceSans
-	Text.Text = "Welcome!"
-	Text.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Text.TextSize = 23.000
-
-	Line.Name = "Line"
-	Line.Parent = Background
-	Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	Line.BackgroundTransparency = 0.300
-	Line.BorderSizePixel = 0
-	Line.Position = UDim2.new(0.237499997, 0, 0.5, 0)
-	Line.Size = UDim2.new(0, 183, 0, 1)
-
-	local TweenService = game:GetService("TweenService")
-
-	local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.Out)
-
-	Background.Position = UDim2.new(-1, 0, 0.5, 0)
-
-	local tween = TweenService:Create(Background, tweenInfo, {
-		Position = UDim2.new(0.05, 0, 0.5, 0)
-	})
-
-	tween:Play()
-
-	local soundId = "rbxassetid://4695797538"
-
-	local sound = Instance.new("Sound")
-	sound.Name = "MySound"
-	sound.SoundId = soundId
-	sound.Volume = 1
-	sound.PlaybackSpeed = 1
-	sound.Looped = false
-	sound.Parent = game.Workspace
-
-	sound:Play()
-
-	local function removeNotification()
-		wait(3)
-		tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Quint, Enum.EasingDirection.InOut)
-		local tweenOut = TweenService:Create(Background, tweenInfo, {
-			Position = UDim2.new(-1, 0, 0.5, 0)
-		})
-		tweenOut:Play()
-		wait(1)
-		Notify:Destroy()
-	end
-
-	removeNotification()
+	
 end
 
 
 TweenHello()
 
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/IJHGIAJGIHJASUIJGHIUHIUHSUIAOHJAHOIBNAO/Nekohub/main/Fluent-master/main.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/IJHGIAJGIHJASUIJGHIUHIUHSUIAOHJAHOIBNAO/Nekohub/main/Fluent-master/main.lu"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/IJHGIAJGIHJASUIJGHIUHIUHSUIAOHJAHOIBNAO/Nekohub/main/Fluent-master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/IJHGIAJGIHJASUIJGHIUHIUHSUIAOHJAHOIBNAO/Nekohub/main/Fluent-master/Addons/InterfaceManager.lua"))()
 -- loadstring(game:HttpGet('https://raw.githubusercontent.com/pascaldercoole1/NekoHub-Beta/main/Nekohub%20V3'))() 
